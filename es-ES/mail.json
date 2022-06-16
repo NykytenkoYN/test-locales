@@ -1,0 +1,998 @@
+{
+  "common": {
+    "you-can-update-your-subscription": "",
+    "clicking-here": "",
+    "footer-information-all-communication-are-coming-from": "",
+    "our-mailing-address-is": "",
+    "please-login-to-review-account": "",
+    "hi-username": "",
+    "login": "",
+    "you-have-successfully-registered-for-mt-live-account": "",
+    "your-metatrader-login-details": "",
+    "download-metatrader": "",
+    "new-metatrader-account-created": "",
+    "thanks": "",
+    "website-team": "",
+    "download": "",
+    "best-regards": "",
+    "mailer-support-team": "",
+    "hello-username": "",
+    "kind-regards": "",
+    "mailer-affiliate-team": "",
+    "hey-username": "",
+    "reach-out-to-our-support": "",
+    "reach-out-support-24-7": "",
+    "thank-you-for-signing-up": "",
+    "create-an-account": "",
+    "click-the-link-below": "",
+    "start-trading": "",
+    "click-the-button-below": "",
+    "transfer-funds": "",
+    "transfer-my-funds": "",
+    "verify-my-account": "",
+    "account-number": "",
+    "trading-password": "",
+    "investor-password": "",
+    "server-name": "",
+    "trader-password": "",
+    "reset-password": "",
+    "regards": "",
+    "dear-username": "",
+    "team": "",
+    "complete-my-deposit": "",
+    "team-2": "",
+    "we-hope-this-email-finds-you-well": "",
+    "complete-2fa-disable-request": "",
+    "welcome-username": "",
+    "complete-signup": "",
+    "click-link-below": "",
+    "dont-wait-any-longer-and-take-a-step-closer-to-your-objectives-today": "",
+    "ignore-email": ""
+  },
+  "account-change": {
+    "action-on-account-information": "",
+    "login-to-review": "",
+    "our-mailing-address-is": ""
+  },
+  "account-created": {
+    "html-email-line-1": "",
+    "html-email-line-2": "",
+    "server-name": "",
+    "account-number": "",
+    "trader-password": "",
+    "investor-password": "",
+    "you-have-a-new-mt-account": ""
+  },
+  "account-follower-created": {
+    "your-metatrader-account-details": "",
+    "you-can-now-login-deposit-transfer-money": "",
+    "account-number": "",
+    "you-have-a-new-metatrader-follower-account": ""
+  },
+  "account-history-export": {
+    "we-have-received-your-request-to-export-your-trade-history": "",
+    "account-number": "",
+    "date-range": "",
+    "your-report-can-be-downloaded-from-the-following-link": "",
+    "link-expiration-message": "",
+    "trade-history-export-request-for-account": "",
+    "preheader-content": "",
+    "brand-account-history-export": "",
+    "received-your-request": "",
+    "account-id": "",
+    "date-range-title": "",
+    "download-report-link": "",
+    "download-link-will-expire": ""
+  },
+  "account-password-changed": {
+    "received-a-password-reset-request": "",
+    "we-received-a-request-to-reset-the-password": "",
+    "if-you-did-not-ask-reach-our-support": "",
+    "your-metatrader-login-details-are-as-follows": "",
+    "account-number": "",
+    "new-password": "",
+    "please-login-to-review": "",
+    "your-account-has-changed-its-password": "",
+    "login-to-review": ""
+  },
+  "affiliate-engagement-1": {
+    "email-line-1": "",
+    "email-line-2": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "email-line-5": "",
+    "email-line-6": "",
+    "email-line-7": "",
+    "email-line-8": "",
+    "get-started-with-affiliate-program": ""
+  },
+  "affiliate-engagement-2": {
+    "email-line-1": "",
+    "email-line-2": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "generate-more-referrals": ""
+  },
+  "affiliate-engagement-3": {
+    "email-line-1": "",
+    "email-line-2": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "email-line-5": "",
+    "email-line-6": "",
+    "email-line-7": "",
+    "email-line-8": "",
+    "talk-to-us": ""
+  },
+  "affiliate-export": {
+    "your-report-can-be-downloaded-from-link": "",
+    "information-about-expiration-time": "",
+    "subject": "",
+    "affiliate-export": "",
+    "download-report-link": "",
+    "download-link-will-expire": "",
+    "brand-affiliate-export": ""
+  },
+  "alert-high-deposit": {
+    "an-approved-deposit-has-been-made-by": "",
+    "alert-high-amount-deposit": ""
+  },
+  "alert-high-wallet-to-mt4": {
+    "a-transfer-from-wallet-to-mt-account-has-been-made": "",
+    "alert-high-amount-wallet-to-mt-transfer": ""
+  },
+  "chaser-no-deposits-yet-1": {
+    "thank-you-for-signing-up": "",
+    "you-are-almost-ready-to-start-trading": "",
+    "once-this-is-done-you-need-to-create-a-live-account": "",
+    "deposit-funds": "",
+    "deposit-now-to-start-trading": "",
+    "make-best-out-of-btc": "",
+    "successfully-verified": "",
+    "deposit-btc": "",
+    "deposit-bitcoin-instructions": "",
+    "blockchain-instructions": "",
+    "ready-to-start-trading": ""
+  },
+  "chaser-no-deposits-yet-2": {
+    "to-start-using-your-account-you-need-to-have-your-first-deposit-approved": "",
+    "click-the-link-below-to-deposit-your-funds": "",
+    "deposit-here": "",
+    "have-you-deposited-funds-yet": "",
+    "get-started": "",
+    "thanks-for-verification": "",
+    "deposit-btc": "",
+    "deposit-bitcoin-instructions": "",
+    "blockchain-instructions": "",
+    "deposit-funds": ""
+  },
+  "chaser-no-deposits-yet-3": {
+    "we-want-you-to-enjoy-trading": "",
+    "click-on-the-link-below-to-take-you-to-your-deposits-page": "",
+    "deposit-funds-here": "",
+    "time-is-running-out": "",
+    "trading-opportunities": "",
+    "first-deposit": "",
+    "deposit-btc": "",
+    "volatility-instructions": "",
+    "transaction-time-instructions": "",
+    "click-link-below": "",
+    "deposit-funds": ""
+  },
+  "chaser-no-deposits-yet-4": {
+    "we-dont-want-to-bug-you-further": "",
+    "if-you-are-still-interested": "",
+    "deposit-here": "",
+    "last-chance": "",
+    "dont-miss-out": "",
+    "first-deposit": "",
+    "deposit-btc": "",
+    "crypto-market-instructions": "",
+    "unlock-full-access-instructions": "",
+    "deposit-funds": ""
+  },
+  "chaser-no-deposits-yet-recurring": {
+    "its-been-a-while": "",
+    "html-line-1": "",
+    "deposit-here": "",
+    "subject": "",
+    "dont-miss-out": "",
+    "first-deposit": "",
+    "deposit-btc": "",
+    "crypto-market-instructions": "",
+    "unlock-full-access-instructions": "",
+    "deposit-funds": ""
+  },
+  "chaser-no-live-accounts-yet-1": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "open-an-account": "",
+    "subject": ""
+  },
+  "chaser-no-live-accounts-yet-2": {
+    "you-have-now-signed-up": "",
+    "html-line-1": "",
+    "subject": ""
+  },
+  "chaser-no-live-accounts-yet-3": {
+    "your-deposit-has-been-approved": "",
+    "html-line-1": "",
+    "subject": ""
+  },
+  "chaser-no-live-accounts-yet-4": {
+    "this-is-our-final": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "chaser-no-live-accounts-yet-recurring": {
+    "its-been-a-while": "",
+    "email-line-1": "",
+    "email-line-2": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "forgotten-your-deposit": ""
+  },
+  "chaser-no-trades-yet-1": {
+    "you-funds-are-now-live": "",
+    "have-your-opened-your-first-trade": "",
+    "now-that-you-have-verified-your-account": "",
+    "offers-over-a-hundred-tradable-assets": "",
+    "open-your-first-trader": "",
+    "if-the-button-does-not-work": "",
+    "create-watchlists-to-keep-track-of-your-investments": "",
+    "access-the-ultimate-trading-features-with": "",
+    "time-to-make-your-first-trade": ""
+  },
+  "chaser-no-trades-yet-2": {
+    "dont-forget-to-open-your-first-trade-today": "",
+    "your-funds-are-in-your-live-mt-account": "",
+    "your-funds-and-account-now-live": "",
+    "once-again-we-thank-you-for-opening-an-account": "",
+    "open-my-first-trade": "",
+    "if-the-link-does-not-work": "",
+    "at-name-you-can-access-all-the-unique-features-that-you-need": "",
+    "if-you-need-any-help-during-the-process": "",
+    "big-opportunities-ahead": "",
+    "open-your-first-trade": ""
+  },
+  "chaser-no-trades-yet-3": {
+    "with-live-funds-in-your-mt-account": "",
+    "click-the-link-below": "",
+    "you-can-start-trading-now": "",
+    "the-time-has-come-for-you-to-open-your-first-trader": "",
+    "open-your-first-trade": "",
+    "trade-over-a-hundred-of-assets-with-zero-percent-commission": "",
+    "if-need-further-assistance": "",
+    "dont-wait-any-longer-and-take-a-step": "",
+    "market-volatility-means-profit-potential": ""
+  },
+  "chaser-no-trades-yet-4": {
+    "as-your-funds-are-ready-to-go": "",
+    "you-first-trade-is-one-step-away": "",
+    "all-the-features-you-need-to-make-profit": "",
+    "are-you-ready-to-trade-over-a-hundred-assets": "",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "",
+    "open-you-first-trade": "",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": ""
+  },
+  "chaser-no-trades-yet-recurring": {
+    "quite-some-time-has-passed": "",
+    "as-your-funds-are-ready": "",
+    "your-first-trade-is-one-step-away": "",
+    "all-the-features-you-need-to-make-profit": "",
+    "are-you-ready-to-trade-over-a-hundred-assets": "",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "",
+    "open-you-first-trade": "",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": ""
+  },
+  "chaser-no-transfers-yet-1": {
+    "your-mt-account-is-live": "",
+    "all-you-need-to-do-is-to-transfer-funds": "",
+    "you-can-do-this-by-clicking-the-link-below": "",
+    "you-can-do-this-by-clicking-the-button-below": "",
+    "transfer-your-funds-today": ""
+  },
+  "chaser-no-transfers-yet-2": {
+    "we-want-you-to-enjoy-your-experience": "",
+    "your-next-step-is-to-transfer-funds": "",
+    "have-you-transferred-funds": ""
+  },
+  "chaser-no-transfers-yet-3": {
+    "time-is-running-out": "",
+    "start-utilising-the-benefits": "",
+    "transfer-your-funds-today": ""
+  },
+  "chaser-no-transfers-yet-4": {
+    "we-note-that-you-still-have-not": "",
+    "our-customer-support-team-is-available": "",
+    "you-can-transfer-funds-from-your-account": "",
+    "we-want-you-to-enjoy-your-experience": "",
+    "have-you-transferred-funds": ""
+  },
+  "chaser-no-transfers-yet-recurring": {
+    "we-are-reaching-out-as-it-has-been-a-while": "",
+    "we-note-that-you-still-have-not": "",
+    "our-customer-support-team-is-available": "",
+    "you-can-transfer-funds-from-your": "",
+    "have-you-transferred-funds-into": ""
+  },
+  "chaser-not-user-yet-1": {
+    "email-line-1": "",
+    "email-line-2": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "email-line-5": "",
+    "email-line-6": "",
+    "steps-to-signing-up-with": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "chaser-not-user-yet-2": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "steps-to-signing-up-with": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "chaser-not-user-yet-3": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "verification-required-on-your": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "chaser-not-user-yet-4": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "verification-required-on-your-account": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "chaser-not-user-yet-5": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "verification-required-on-your-account": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "chaser-not-user-yet-6": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "verify-now": "",
+    "last-chance-to-verify-your-account": "",
+    "thank-you-for-signin-up-time-to-verify-your-email": "",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "",
+    "simply-click-the-link-below-to-verify-your-account": "",
+    "verify-your-email": ""
+  },
+  "competition-account-created": {
+    "html-text-1": "",
+    "html-text-2": "",
+    "html-text-3": "",
+    "html-text-4": "",
+    "html-text-5": "",
+    "new-mt-competition-account-created": ""
+  },
+  "corporate-account-activation-email": {
+    "welcome": "",
+    "email-line-1": "",
+    "email-line-2": "",
+    "your-next-steps": "",
+    "step-1": "",
+    "step-1-description": "",
+    "step-2": "",
+    "step-2-description": "",
+    "step-3": "",
+    "step-3-description": "",
+    "company-documents-1": "",
+    "company-documents-2": "",
+    "company-documents-3": "",
+    "company-documents-4": "",
+    "company-documents-5": "",
+    "company-documents-6": "",
+    "company-documents-7": "",
+    "company-documents-8": "",
+    "company-documents-9": "",
+    "company-documents-10": "",
+    "company-documents-11": "",
+    "company-documents-12": "",
+    "company-documents-13": "",
+    "email-line-3": "",
+    "email-line-4": "",
+    "email-line-5": ""
+  },
+  "demo-account-created": {
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "subject": "",
+    "html-line-1": ""
+  },
+  "demo-account-engagement-1": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "sign-up": "",
+    "subject": ""
+  },
+  "deposit-approved-with-fee": {
+    "html-line-1": "",
+    "subject": "",
+    "deposit-approved-with-fee": "",
+    "your-deposit-has-been": "",
+    "successful": "",
+    "fee-is-deducted": "",
+    "ready-to-join": "",
+    "click-to-trade": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "deposit-approved": {
+    "html-line-1": "",
+    "subject": "",
+    "deposit-approved": "",
+    "your-deposit-has-been": "",
+    "successful": "",
+    "ready-to-join": "",
+    "click-to-trade": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "deposit-cc-approved": {
+    "html-line-2": "",
+    "html-line-1": ""
+  },
+  "deposit-cc-rejected": {
+    "html-line-2": "",
+    "html-line-1": ""
+  },
+  "deposit-rejected": {
+    "html-line-2": "",
+    "html-line-1": "",
+    "subject": "",
+    "deposit-rejected": "",
+    "unfortunately-your-deposit-has-been": "",
+    "rejected": "",
+    "get-in-touch": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "deposit-reminder": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "step-1": "",
+    "step-2": "",
+    "step-3": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": ""
+  },
+  "deposit-reupload-document": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "deposit-skrill": {
+    "html-line-1": "",
+    "subject": ""
+  },
+  "deposit-wt-upload": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "deposit-wt-uploaded": {
+    "html-line-1": "",
+    "subject": ""
+  },
+  "deposit-zelle": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "document-rejected-both": {
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": ""
+  },
+  "document-rejected": {
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": ""
+  },
+  "document-review": {
+    "html-line-2": "",
+    "html-line-3": "",
+    "subject": "",
+    "html-line-1": ""
+  },
+  "document-updated": {
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": "",
+    "html-line-1": ""
+  },
+  "email-exist-unable-to-create-account": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": ""
+  },
+  "forex-squad-signup": {
+    "html-line-4": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-5": "",
+    "subject": "",
+    "html-line-1": ""
+  },
+  "global-notification-email": {
+    "html-line-1": "",
+    "subject": "",
+    "html-line-2": ""
+  },
+  "global-notification": {
+    "subject": "",
+    "notification": ""
+  },
+  "ib-registration": {
+    "html-line-1": "",
+    "partner-referral-id": "",
+    "email-address": "",
+    "password": "",
+    "partners-admin-url": "",
+    "partner-portal": "",
+    "subject": ""
+  },
+  "instacoins-deposit-details": {
+    "html-line-5": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": ""
+  },
+  "instacoins-kyc": {
+    "html-line-2": "",
+    "html-line-1": "",
+    "subject": ""
+  },
+  "internal-ib-created": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "subject": "",
+    "affiliate-account-created": "",
+    "congrats-you-are-now-a": "",
+    "brand-affiliate": "",
+    "spread-the-revolution": "",
+    "access-your-brand-account": ""
+  },
+  "internal-transfer-approved": {
+    "html-line-2": "",
+    "html-line-1": ""
+  },
+  "internal-transfer-rejected": {
+    "html-line-2": "",
+    "html-line-1": ""
+  },
+  "kyc-expire-in-15": {
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": ""
+  },
+  "kyc-expire-in-30": {
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": ""
+  },
+  "kyc-expired": {
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": ""
+  },
+  "notification-created": {
+    "html-line-3": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "login-to-your-account": "",
+    "subject": ""
+  },
+  "pamm-detach": {
+    "html-line-3": "",
+    "html-line-1": "",
+    "subject": "",
+    "html-line-2": ""
+  },
+  "pamm-fund-account-created": {
+    "html-line-11": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "html-line-9": "",
+    "html-line-10": "",
+    "subject": ""
+  },
+  "pamm-investor-account-created": {
+    "html-line-11": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "html-line-9": "",
+    "html-line-10": "",
+    "subject": ""
+  },
+  "pamm-joined": {
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": ""
+  },
+  "pamm-master-account-created": {
+    "html-line-10": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "html-line-9": "",
+    "subject": ""
+  },
+  "password-recovery": {
+    "html-line-2": "",
+    "subject": "",
+    "html-line-1": "",
+    "reset-your-password": "",
+    "recently-request-for-reset": "",
+    "initiate-reset": "",
+    "if-didnt-request-intro": "",
+    "reset-step-1": "",
+    "reset-step-2": ""
+  },
+  "suspended-country": {
+    "html-line-3": "",
+    "html-line-1": "",
+    "html-line-4": "",
+    "subject": "",
+    "html-line-2": "",
+    "suspended-country": "",
+    "thanks-for-registering": "",
+    "we-are-sorry": "",
+    "list-of-countries": "",
+    "we-operate-in": "",
+    "get-in-touch": "",
+    "talk-to-us": "",
+    "list-of-countries-title": ""
+  },
+  "suspended-duplicate-account": {
+    "html-line-5": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": ""
+  },
+  "two-factor-disable-failed": {
+    "disable-2fa-failed": "",
+    "please-contact-support": ""
+  },
+  "two-factor-disable-request": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "subject": ""
+  },
+  "two-factor-disable-success": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "two-factor-disable-user-account-locked": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "two-factor-release-lock": {
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "unsuspended-country": {
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "unsuspended-country": "",
+    "thanks-for-registering": "",
+    "we-added-your-country": "",
+    "start-trading-sharing": "",
+    "start-trading": ""
+  },
+  "user-approved": {
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": "",
+    "html-line-1": ""
+  },
+  "user-created": {
+    "html-line-7": "",
+    "html-line-8": "",
+    "here-are-some-quick-steps": "",
+    "html-line-9": "",
+    "html-line-10": "",
+    "html-line-11": "",
+    "html-line-12": "",
+    "if-you-would-like-more-deposit-methods": "",
+    "html-line-13": "",
+    "need-help": "",
+    "navigate-to-faq-section": "",
+    "all-the-best": "",
+    "subject": "",
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "ready-to-start": "",
+    "welcome-to-future-of-trading": "",
+    "ready-to-start-trading": "",
+    "start-trading": ""
+  },
+  "user-request": {
+    "you-have-signed-up-to": "",
+    "you-are-almost-done": "",
+    "html-line-1": "",
+    "welcome-to-brand": "",
+    "complete-sign-up": "",
+    "thank-you-for-signup": "",
+    "complete-signup": ""
+  },
+  "withdraw-approved": {
+    "html-line-2": "",
+    "html-line-1": "",
+    "withdrawal-approved": "",
+    "your-withdrawal-has-been": "",
+    "successful": "",
+    "community-share": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "withdraw-created-user": {
+    "html-line-2": "",
+    "html-line-1": "",
+    "subject": "",
+    "withdraw-started": "",
+    "your-withdrawal-is-now": "",
+    "pending-approval": "",
+    "will-send-an-email": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "withdraw-created": {
+    "subject": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject-2": "",
+    "html-line-1": "",
+    "html-line-2": ""
+  },
+  "withdraw-pending-internal-review": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "subject": ""
+  },
+  "withdraw-pending-transfer": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "subject": ""
+  },
+  "withdraw-rejected": {
+    "html-line-1": "",
+    "subject": "",
+    "withdrawal-rejected": "",
+    "unfortunately-your-withdrawal-has-been": "",
+    "rejected": "",
+    "get-in-touch": "",
+    "amount": "",
+    "see-your-transactions": ""
+  },
+  "withdraw-selfie-requested": {
+    "html-line-1": "",
+    "html-line-2": "",
+    "html-line-3": "",
+    "html-line-4": "",
+    "html-line-5": "",
+    "html-line-6": "",
+    "html-line-7": "",
+    "html-line-8": "",
+    "html-line-9": "",
+    "html-line-10": "",
+    "html-line-11": "",
+    "html-line-12": "",
+    "html-line-13": "",
+    "subject": ""
+  },
+  "affiliate-invite": {
+    "affiliate-invite": "",
+    "introduce-others": "",
+    "become-affiliate": "",
+    "need-more-info": "",
+    "talk-to-us": "",
+    "start-sharing": "",
+    "invite-friends": ""
+  },
+  "chaser-not-enabled-2fa-yet-1": {
+    "time-to-start-trading": "",
+    "thank-you-for-joining": "",
+    "secure-trading-platform": "",
+    "enable-your-2fa": ""
+  },
+  "chaser-not-enabled-2fa-yet-2": {
+    "complete-your-profile": "",
+    "welcome-to-brand": "",
+    "verify-your-account-enable-2fa": "",
+    "security-top-priority": "",
+    "enable-your-2fa": "",
+    "guarantee-full-security": ""
+  },
+  "chaser-not-enabled-2fa-yet-3": {
+    "unlock-brand-security-feature": "",
+    "setup-2fa-and-verify": "",
+    "enable-your-2fa": "",
+    "enjoy-full-experience": ""
+  },
+  "chaser-not-enabled-2fa-yet-4": {
+    "unlock-brand-security-feature": "",
+    "2fa-feature-description": "",
+    "unlock-features": "",
+    "enable-your-2fa": ""
+  },
+  "trade-order-deleted-expired": {
+    "order-was-expired": "",
+    "order-was-cancelled-automatically": "",
+    "order-id": "",
+    "instrument": "",
+    "see-your-open-orders": "",
+    "if-it-wasnt-you": "",
+    "contact-our-support-team": ""
+  },
+  "trade-position-created-filled": {
+    "order-was-filled": "",
+    "order-was-processed": "",
+    "order-id": "",
+    "instrument": "",
+    "open-price": "",
+    "position-id": "",
+    "see-your-open-trades": "",
+    "if-it-wasnt-you": "",
+    "contact-our-support-team": ""
+  },
+  "trade-position-deleted-sl": {
+    "order-was-closed": "",
+    "position-is-closed": "",
+    "position-id": "",
+    "instrument": "",
+    "sl-price": "",
+    "profit-loss-value": "",
+    "see-your-trades-history": "",
+    "if-it-wasnt-you": "",
+    "contact-our-support-team": ""
+  },
+  "trade-position-deleted-stopout": {
+    "order-closed": "",
+    "position-closed": "",
+    "position-id": "",
+    "instrument": "",
+    "see-your-trades-history": "",
+    "if-it-wasnt-you": "",
+    "contact-our-support-team": ""
+  },
+  "trade-position-deleted-tp": {
+    "take-profit-closed": "",
+    "position-fully-closed": "",
+    "position-id": "",
+    "instrument": "",
+    "tp-price": "",
+    "profit-loss-value": "",
+    "see-your-trades-history": "",
+    "if-it-wasnt-you": "",
+    "contact-our-support-team": ""
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "common": {
+    "you-can-update-your-subscription": "Vous pouvez mettre à jour vos abonnements en",
+    "clicking-here": "cliquant ici",
+    "footer-information-all-communication-are-coming-from": "Veuillez noter que toutes les communications provenant de {{mailer.info.name}} se font uniquement via nos adresses e-mail officielles @{{mailer.domain}}.",
+    "our-mailing-address-is": "Notre adresse postale est la suivante:",
+    "please-login-to-review-account": "Veuillez vous connecter pour consulter vos comptes",
+    "hi-username": "Bonjour {{user.firstName}}",
+    "login": "Connectez-vous",
+    "you-have-successfully-registered-for-mt-live-account": "Vous vous êtes enregistré avec succès pour votre compte live MetaTrader. Vos informations de connexion MetaTrader sont les suivantes :",
+    "your-metatrader-login-details": "Vos données de connexion MetaTrader sont les suivantes:",
+    "download-metatrader": "Télécharger MetaTrader",
+    "new-metatrader-account-created": "Nouveau compte MetaTrader créé !",
+    "thanks": "Merci",
+    "website-team": "{{mailer.info.website}} L'équipe",
+    "download": "Télécharger",
+    "best-regards": "Meilleures salutations",
+    "mailer-support-team": "L'équipe d'assistance de {{mailer.info.name}}.",
+    "hello-username": "Bonjour {{user.firstName}}",
+    "kind-regards": "Meilleures salutations",
+    "mailer-affiliate-team": "L'équipe d'affiliation {{mailer.info.name}}.",
+    "hey-username": "Bonjour {{user.firstName}}",
+    "reach-out-to-our-support": "Si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24 heures sur 24/7 par chat en direct ou par e-mail.",
+    "reach-out-support-24-7": "Si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24 heures sur 24 et 7 jours sur 7 par le biais d'un chat en direct, par e-mail ou en demandant à être rappelé par notre site.",
+    "thank-you-for-signing-up": "Merci de vous être inscrit à {{mailer.info.name}}",
+    "create-an-account": "Cliquez sur le lien ci-dessous et commencez votre voyage de trading maintenant.",
+    "click-the-link-below": "Cliquez sur le lien ci-dessous et commencez votre voyage de trading maintenant.",
+    "start-trading": "Commencez à trader",
+    "click-the-button-below": "Cliquez sur le bouton ci-dessous et lancez-vous dans l'experience du trading.",
+    "transfer-funds": "Transfert de fonds",
+    "transfer-my-funds": "Transférer mes fonds",
+    "verify-my-account": "Vérifier mon compte",
+    "account-number": "Numéro de compte: {{account.mt4AccountId}}",
+    "trading-password": "Mot de passe de trading: {{account.masterPassword}}",
+    "investor-password": "Mot de passe investisseur: {{account.investorPassword}} (en lecture seule)",
+    "server-name": "Nom du serveur: {{account.publicServerName}}",
+    "trader-password": "Mot de passe Trader: {{account.masterPassword}}",
+    "reset-password": "Réinitialiser le mot de passe",
+    "regards": "Salutations",
+    "dear-username": "Cher {{user.firstName}}",
+    "team": "L'équipe de {{mailer.info.fullName}}",
+    "complete-my-deposit": "Terminer mon dépôt",
+    "team-2": "L'équipe de {{mailer.info.name}}",
+    "we-hope-this-email-finds-you-well": "Nous espérons que cet e-mail vous trouvera bien.",
+    "complete-2fa-disable-request": "Terminer la demande de désactivation 2FA",
+    "welcome-username": "Bienvenue, {{user.firstName}}",
+    "complete-signup": "Inscription complète",
+    "click-link-below": "Si le bouton ci-dessus ne fonctionne pas, cliquez sur le lien ci-dessous :",
+    "dont-wait-any-longer-and-take-a-step-closer-to-your-objectives-today": "N'attendez plus et faites le premier pas vers vos objectifs dès aujourd'hui.",
+    "ignore-email": "Veuillez ignorer cet e-mail si vous n'avez pas fait cette demande."
+  },
+  "account-change": {
+    "action-on-account-information": "Votre compte {{account.id}}a {{account.action}}",
+    "login-to-review": "Pour revoir vos comptes, connectez-vous ici : {{mailer.info.website}}/login",
+    "our-mailing-address-is": "Notre adresse postale est la suivante:"
+  },
+  "account-created": {
+    "html-email-line-1": "Vous vous êtes enregistré avec succès pour votre compte en direct MetaTrader avec {{mailer.info.fullName}} et vous n'êtes plus qu'à quelques instants de découvrir le monde passionnant du FX en ligne.",
+    "html-email-line-2": "Veuillez noter que pour commencer à trader, vous devez transférer des fonds de votre portefeuille {{mailer.info.fullName}} vers ce compte MetaTrader simplement en effectuant un transfert interne du portefeuille vers MetaTrader.",
+    "server-name": "Nom du serveur:",
+    "account-number": "Numéro de compte: {{account.mt4AccountId}}",
+    "trader-password": "Mot de passe Trader:",
+    "investor-password": "Mot de passe investisseur:",
+    "you-have-a-new-mt-account": "Vous avez un nouveau compte MetaTrader."
+  },
+  "account-follower-created": {
+    "your-metatrader-account-details": "Les détails de votre compte MetaTrader sont les suivants :",
+    "you-can-now-login-deposit-transfer-money": "Vous pouvez maintenant vous connecter, déposer/transférer de l'argent sur ce compte et rejoindre un compte leader ou PAMM.",
+    "account-number": "Numéro de compte: {{account.mt4AccountId}}",
+    "you-have-a-new-metatrader-follower-account": "Vous avez un nouveau compte d'abonné MetaTrader."
+  },
+  "account-history-export": {
+    "we-have-received-your-request-to-export-your-trade-history": "Nous avons reçu votre demande d'exportation de votre historique de transactions pour le compte et la date suivants -",
+    "account-number": "Numéro de compte: {{account.mt4AccountId}}",
+    "date-range": "Plage de dates : {{fromFormatted}} - {{toFormatted}}",
+    "your-report-can-be-downloaded-from-the-following-link": "Votre rapport peut être téléchargé à partir du lien suivant :",
+    "link-expiration-message": "Veuillez noter que le lien ci-dessus expirera après {{expiresInDays}} jours. Veuillez donc télécharger le rapport pour éviter d'avoir à le demander à nouveau.",
+    "trade-history-export-request-for-account": "{{mailer.info.name}} Demande d'exportation de l'historique de trading pour le compte {{account.mt4AccountId}} et la plage de dates {{fromFormatted}} - {{toFormatted}}",
+    "preheader-content": "{{mailer.info.name}} Demande d'exportation de l'historique de trading pour le compte {{account.mt4AccountId}} et la plage de dates {{fromFormatted}} - {{toFormatted}}",
+    "brand-account-history-export": "{{mailer.info.name}} Exportation de l'historique de trading",
+    "received-your-request": "Nous avons reçu votre demande d'exportation de votre historique de transactions pour le compte et la date suivants",
+    "account-id": "Identifiant de compte ",
+    "date-range-title": "Plage de dates",
+    "download-report-link": "Votre rapport peut être téléchargé à partir du lien suivant",
+    "download-link-will-expire": "Veuillez noter que le lien ci-dessus expirera après {{expiresInDays}} jours. Veuillez donc télécharger le document pour éviter d'avoir à demander à nouveau votre rapport."
+  },
+  "account-password-changed": {
+    "received-a-password-reset-request": "Nous avons reçu une demande de réinitialisation de mot de passe, si vous ne l'avez pas demandé vous-même, veuillez nous en informer immédiatement.",
+    "we-received-a-request-to-reset-the-password": "Nous avons reçu une demande de réinitialisation du mot de passe pour le compte MetaTrader ci-dessous.",
+    "if-you-did-not-ask-reach-our-support": "Si vous n'avez pas demandé le changement de mot de passe vous-même, veuillez nous en informer immédiatement en contactant notre service client 24h/24 et 7j/7 par chat en direct ou par e-mail.",
+    "your-metatrader-login-details-are-as-follows": "Vos nouvelles informations de connexion MetaTrader sont les suivantes :",
+    "account-number": "Numéro de compte: {{account.id}}",
+    "new-password": "Votre nouveau mot de passe: ",
+    "please-login-to-review": "Veuillez vous connecter pour consulter vos comptes",
+    "your-account-has-changed-its-password": "Votre compte {{account.id}} a changé son mot de passe",
+    "login-to-review": "Pour consulter vos comptes, connectez-vous ici: {{mailer.info.website}}/login"
+  },
+  "affiliate-engagement-1": {
+    "email-line-1": "Félicitations pour avoir rejoint notre programme d'affiliation exclusif {{mailer.info.name}} !",
+    "email-line-2": "Nous voulons vous aider à générer des profits le plus rapidement possible, c'est pourquoi les avantages ci-dessous ont été créés dans cet esprit pour vous, l'Affilié.",
+    "email-line-3": "Le programme d'affiliation {{mailer.info.name}} offre plusieurs avantages pour vous et vos traders, y compris un gestionnaire d'affiliation, des outils pour vous aider à vous développer et des commissions avantageuses.",
+    "email-line-4": "Tout ce que vous avez à faire est maintenant de vous connecter à votre compte de trading {{mailer.info.name}} et de partager votre lien de suivi.",
+    "email-line-5": "Vous pouvez trouver votre lien de suivi d'affiliation sous l'onglet \"Parrainages\" ou \"Parrainer un ami\" une fois connecté.",
+    "email-line-6": "Avez-vous des questions ou avez-vous besoin d'aide pour gagner votre première commission payée ? Vous pouvez répondre à cet e-mail et votre responsable d'affiliation dédié vous contactera dès que possible.",
+    "email-line-7": "We are always happy to receive feedback from you regarding our Affiliate Program and/or services as it allows us to improve your experience further.",
+    "email-line-8": "Nous sommes très heureux de vous accueillir à bord en tant que partenaire précieux et nous nous réjouissons de travailler en étroite collaboration avec vous.",
+    "get-started-with-affiliate-program": "{{user.firstName}}, lancez-vous avec le programme d'affiliation {{mailer.info.name}} !"
+  },
+  "affiliate-engagement-2": {
+    "email-line-1": "Maintenant que vous faites partie de notre programme d'affiliation exclusif, nous souhaitons faciliter au maximum le partage de notre excellent service avec vos commerçants et vous aider à vous développer en tant qu'affilié de {{mailer.info.name}}.",
+    "email-line-2": "Nous pouvons vous proposer des bannières de marque de haute qualité qui ont grandement contribué aux taux de conversion de nos affiliés existants. Vous pouvez demander ces supports marketing en nous contactant par e-mail ici : {{affiliatesEmail}}.",
+    "email-line-3": "Assurez-vous de les partager sur vos blogs/sites Web/canaux de médias sociaux pour aider à générer plus de références.",
+    "email-line-4": "Bonne chance et n'oubliez pas d'être créatif - le ciel est la limite !",
+    "generate-more-referrals": "{{user.firstName}}, générer plus de références"
+  },
+  "affiliate-engagement-3": {
+    "email-line-1": "Nous aimerions en savoir plus sur VOUS !",
+    "email-line-2": "Apprendre à connaître nos affiliés est essentiel pour vous aider à devenir un affilié prospère pour {{mailer.info.name}}. En tant que tel, nous adaptons nos services en fonction de ce dont vous et votre réseau avez le plus besoin pour vous assurer l'opportunité de gagner un revenu passif.",
+    "email-line-3": "Nous accueillons les affiliés avec n'importe quel niveau d'expertise. Pour nous permettre de mieux comprendre vos besoins, ainsi que de vous aider à grandir et à vous développer davantage, pourriez-vous nous dire comment vous avez construit votre réseau ou envisagez de le faire ?",
+    "email-line-4": "Quelles stratégies de marketing avez-vous mises en place, ou pouvons-nous vous être utiles dans ce domaine ?",
+    "email-line-5": "Nous voulons nous assurer que vous disposez de tous les outils et conseils nécessaires pour vous aider à gagner à un niveau optimal avec notre programme d'affiliation.",
+    "email-line-6": "Sur cette note, nous aimerions organiser un appel avec vous. C'est une bonne occasion pour nous de nous présenter personnellement et de voir comment nous pourrions vous aider dans votre parcours en tant qu'affilié avec {{mailer.info.name}}.",
+    "email-line-7": "Ne tardez pas ! Répondez à cet e-mail en indiquant une date et une heure appropriées pour un appel et votre responsable d'affiliation dédié vous contactera.",
+    "email-line-8": "Dans l'espoir de parler avec vous bientôt.",
+    "talk-to-us": "Contactez-nous, {{user.firstName}}"
+  },
+  "affiliate-export": {
+    "your-report-can-be-downloaded-from-link": "Votre rapport peut être téléchargé à partir du lien suivant :",
+    "information-about-expiration-time": "Veuillez noter que le lien ci-dessus expirera dans {{expiresInDays}} jours. Veuillez donc télécharger le rapport pour éviter d'avoir à le redemander. ",
+    "subject": "{{mailer.info.name}} Exportation d'affilié",
+    "affiliate-export": " Exportation d'affilié",
+    "download-report-link": "Votre rapport peut être téléchargé à partir du lien suivant",
+    "download-link-will-expire": "Veuillez noter que le lien ci-dessus expirera dans {{expiresInDays}} jours. Veuillez donc télécharger le rapport pour éviter d'avoir à le redemander.",
+    "brand-affiliate-export": "{{mailer.info.name}} Exportation d'affilié"
+  },
+  "alert-high-deposit": {
+    "an-approved-deposit-has-been-made-by": "Un dépôt approuvé de {{deposit.approved}} a été effectué par {{depositOwner.firstName}} {{depositOwner.surname}} - {{depositOwner.email}}.",
+    "alert-high-amount-deposit": "Alerte - Dépôt d'un montant élevé!"
+  },
+  "alert-high-wallet-to-mt4": {
+    "a-transfer-from-wallet-to-mt-account-has-been-made": "Un {{transfer.amount}}transfert de {{transfer.wallet}}portefeuille à {{transfer.toAccount}} compte MetaTrader a été effectué par{ {transferOwner.firstName}} {{transferOwner.surname}} - {{transferOwner.email}}.",
+    "alert-high-amount-wallet-to-mt-transfer": "Alerte - Transfert de portefeuille à montant élevé vers MetaTrader !"
+  },
+  "chaser-no-deposits-yet-1": {
+    "thank-you-for-signing-up": "Merci de vous être inscrit à {{mailer.info.name}}",
+    "you-are-almost-ready-to-start-trading": "Vous êtes presque prêt à commencer à trader. Vos prochaines étapes rapides et faciles consistent à déposer un minimum de 10 dollars dans le portefeuille de votre compte de trading.",
+    "once-this-is-done-you-need-to-create-a-live-account": "Une fois cela fait, vous devez créer un compte de trading en direct.",
+    "deposit-funds": "Faites un dépôt de fonds",
+    "deposit-now-to-start-trading": "Faites un dépôt maintenant pour commencer à trader!",
+    "make-best-out-of-btc": "Tirez le meilleur parti de votre BTC {{user.firstName}}!",
+    "successfully-verified": "Vous avez vérifié et sécurisé votre compte avec succès. Cela signifie que vous êtes prêt à effectuer votre premier dépôt BTC et à commencer.",
+    "deposit-btc": "Faites un dépôt BTC",
+    "deposit-bitcoin-instructions": "{{mailer.info.name}} Les dépôts BTC sont traités en quelques minutes et en toute sécurité. Pour effectuer votre premier dépôt Bitcoin, commencez par vous connecter à votre compte et procédez au dépôt de fonds dans votre portefeuille, déposez un minimum de 10 $, puis copiez l'adresse ou scannez le code QR généré juste pour vous.",
+    "blockchain-instructions": "Un processus simple entièrement soutenu par le réseau Blockchain. Ce qui signifie que la confidentialité et la sécurité sont garanties. Une fois que vous avez reçu la confirmation de dépôt, vous pouvez commencer à trader avec votre solde mis à jour.",
+    "ready-to-start-trading": "Prêt à commencer à trader ?"
+  },
+  "chaser-no-deposits-yet-2": {
+    "to-start-using-your-account-you-need-to-have-your-first-deposit-approved": "Pour commencer à utiliser votre compte {{mailer.info.name}}, vous devrez faire approuver votre premier dépôt.",
+    "click-the-link-below-to-deposit-your-funds": "Cliquez sur le lien ci-dessous pour déposer vos fonds.",
+    "deposit-here": "Déposez ici",
+    "have-you-deposited-funds-yet": "Avez-vous déjà déposé des fonds ?",
+    "get-started": "Une étape simple pour démarrer {{user.firstName}} !",
+    "thanks-for-verification": "Thank you for verifying your account and enabling 2FA for extra security. Now the time has come for you to start trading at {{mailer.info.name}}, now you just need to deposit BTC for the first time.",
+    "deposit-btc": "Dépôt BTC",
+    "deposit-bitcoin-instructions": "{{mailer.info.name}} Les dépôts BTC sont traités en quelques minutes et en toute sécurité. Pour effectuer votre premier dépôt Bitcoin, commencez par vous connecter à votre compte et procédez au dépôt de fonds dans votre portefeuille, déposez un minimum de 10 $, puis copiez l'adresse ou scannez le code QR généré juste pour vous.",
+    "blockchain-instructions": "Un processus simple entièrement soutenu par le réseau Blockchain. Ce qui signifie que la confidentialité et la sécurité sont garanties. Une fois que vous avez reçu la confirmation de dépôt, vous pouvez commencer à trader avec votre solde mis à jour.",
+    "deposit-funds": "Fonds de dépôt"
+  },
+  "chaser-no-deposits-yet-3": {
+    "we-want-you-to-enjoy-trading": "Nous souhaitons que vous appréciiez le trading avec {{mailer.info.name}}, mais pour commencer, vous devrez déposer des fonds sur votre compte. Il existe plusieurs façons de le faire, mais vous souhaiterez peut-être commencer avec Bitcoin pour une méthode rapide et facile.",
+    "click-on-the-link-below-to-take-you-to-your-deposits-page": "Cliquez sur le lien ci-dessous pour accéder à votre page de dépôt.",
+    "deposit-funds-here": "Déposez des fonds ici",
+    "time-is-running-out": "Le temps presse. Déposez maintenant!",
+    "trading-opportunities": "Ne manquez pas les opportunités de trading {{user.firstName}} !",
+    "first-deposit": "Nous avons remarqué que vous n'avez pas encore effectué votre premier dépôt BTC sur {{mailer.info.name}}, rappelez-vous que vous devez d'abord ajouter des fonds à votre compte avant de négocier sur les marchés.",
+    "deposit-btc": "Dépôt BTC",
+    "volatility-instructions": "Les marchés connaissent des niveaux élevés de volatilité ces jours-ci, ce qui signifie des opportunités rentables pour les commerçants. Connectez-vous à votre compte, cliquez sur déposer des fonds, déposez un minimum de 10 $ sur votre compte de trading, puis copiez l'adresse ou scannez le code QR qui a été généré.",
+    "transaction-time-instructions": "C'est aussi simple que ça, les transactions sont traitées en quelques secondes, donc après avoir reçu votre confirmation de dépôt, votre solde sera mis à jour et vous débloquerez l'expérience {{mailer.info.name}}.",
+    "click-link-below": "Cliquez sur le lien ci-dessous pour accéder à votre page de dépôt.",
+    "deposit-funds": "Faites un dépôt"
+  },
+  "chaser-no-deposits-yet-4": {
+    "we-dont-want-to-bug-you-further": "nous ne voulons pas vous déranger davantage.",
+    "if-you-are-still-interested": "Si vous êtes toujours intéressé par le trading avec {{mailer.info.name}}, veuillez cliquer sur le lien ci-dessous pour déposer des fonds sur votre compte et profiter de tous les avantages du trading avec nous. Ne manquez pas cette opportunité commerciale qui n'est qu'à quelques minutes !",
+    "deposit-here": "Déposez ici",
+    "last-chance": "Dernière chance de déposer vos fonds avec {{mailer.info.name}}",
+    "dont-miss-out": "Ne manquez pas de grandes opportunités {{user.firstName}} !",
+    "first-deposit": "Avant de pouvoir commencer à négocier sur les marchés sur {{mailer.info.name}}, vous devez d'abord effectuer votre premier dépôt BTC sur votre compte, tout ce qu'il faut, c'est un minimum de 10 $.",
+    "deposit-btc": "Déposez BTC",
+    "crypto-market-instructions": "Avec le marché de la crypto-monnaie sous les projecteurs ces jours-ci, de grandes opportunités peuvent se présenter. Tout ce que vous avez à faire est de vous connecter à votre compte, de cliquer sur déposer des fonds, puis de copier l'adresse ou de scanner le code QR qui a été généré pour vous.",
+    "unlock-full-access-instructions": "Aussi simple que possible, une fois que vous avez reçu votre confirmation de dépôt, votre solde sera mis à jour et vous débloquerez un accès complet à toutes nos fonctionnalités de trading uniques.",
+    "deposit-funds": "Faites un dépôt"
+  },
+  "chaser-no-deposits-yet-recurring": {
+    "its-been-a-while": "cela fait un moment que nous n'avons pas été en contact.",
+    "html-line-1": "Si vous êtes toujours intéressé par le trading avec {{mailer.info.name}}, veuillez cliquer sur le lien ci-dessous pour déposer des fonds sur votre compte et profiter de tous les avantages du trading avec nous. Ne manquez pas cette opportunité de trading qui n'est qu'à quelques minutes !",
+    "deposit-here": "Déposez ici",
+    "subject": "Dernière chance de déposer vos fonds avec {{mailer.info.name}} !",
+    "dont-miss-out": "Ne manquez pas de grandes opportunités {{user.firstName}} !",
+    "first-deposit": "Avant de pouvoir commencer à négocier sur les marchés sur {{mailer.info.name}}, vous devez d'abord effectuer votre premier dépôt BTC sur votre compte, tout ce qu'il faut, c'est un minimum de 10 $.",
+    "deposit-btc": "Faites un dépôt BTC",
+    "crypto-market-instructions": "Avec le marché de la crypto-monnaie sous les projecteurs ces jours-ci, de grandes opportunités peuvent se présenter. Tout ce que vous avez à faire est de vous connecter à votre compte, de cliquer sur déposer des fonds, puis de copier l'adresse ou de scanner le code QR qui a été généré pour vous.",
+    "unlock-full-access-instructions": "Aussi simple que possible, une fois que vous avez reçu votre confirmation de dépôt, votre solde sera mis à jour et vous débloquerez un accès complet à toutes nos fonctionnalités uniques de trading.",
+    "deposit-funds": "Faites un dépôt"
+  },
+  "chaser-no-live-accounts-yet-1": {
+    "html-line-1": "Vous êtes presque prêt à commencer à trader. Vous avez effectué un dépôt qui est maintenant approuvé et prêt à faire partie de votre première aventure dans le trading.",
+    "html-line-2": "Votre prochaine étape consiste à créer un compte MetaTrader en direct à partir de l'onglet \"Mes comptes\" de votre compte.",
+    "open-an-account": "Ouvrir un compte",
+    "subject": "Créez votre compte de trading en direct dès aujourd'hui !"
+  },
+  "chaser-no-live-accounts-yet-2": {
+    "you-have-now-signed-up": "Vous êtes maintenant inscrit et déposé. La dernière étape avant de pouvoir trader consiste à créer votre compte MetaTrader à partir de l'onglet \"Mes comptes\" de votre compte {{mailer.info.name}}.",
+    "html-line-1": "La création d'un compte en direct ne prendra que quelques secondes. Il ne vous reste plus qu'à transférer votre dépôt de votre portefeuille vers ce nouveau compte réel pour ouvrir votre première transaction.",
+    "subject": "Créez votre compte MetaTrader et commencez à trader dès aujourd'hui !"
+  },
+  "chaser-no-live-accounts-yet-3": {
+    "your-deposit-has-been-approved": "Votre dépôt a été approuvé depuis quelques jours maintenant et vous devez créer un compte MetaTrader en direct avant de pouvoir commencer à trader à partir de l'onglet \"Mes comptes\" de votre compte.",
+    "html-line-1": "Cliquez sur le lien ci-dessous et commencez votre voyage de trading.",
+    "subject": "Vous manquez de temps pour créer votre compte MetaTrader !"
+  },
+  "chaser-no-live-accounts-yet-4": {
+    "this-is-our-final": "Ceci est notre dernière prise de contact pour vous rappeler de créer votre compte MetaTrader en direct pour pouvoir commencer à trader les fonds que vous avez déposés.",
+    "html-line-1": "Il y a toujours une opportunité de trading dont nous aimerions que vous profitiez !",
+    "html-line-2": "La création d'un compte en direct ne prendra que quelques secondes. Il ne vous reste plus qu'à transférer votre dépôt de votre portefeuille vers ce nouveau compte réel pour ouvrir votre première transaction.",
+    "subject": "Auriez-vous oublié votre acompte? Commencez à trader avec {{mailer.info.name}} !"
+  },
+  "chaser-no-live-accounts-yet-recurring": {
+    "its-been-a-while": "Cela fait un moment que nous n'avons pas été en contact à propos de votre compte pour vous aider à démarrer votre parcours de trading.",
+    "email-line-1": "Nous voulions vous rappeler de créer votre compte MetaTrader en direct pour pouvoir commencer à trader les fonds que vous avez déposés.",
+    "email-line-2": "Il y a toujours une opportunité de trading dont nous aimerions que vous profitiez !",
+    "email-line-3": "La création d'un compte en direct ne prendra que quelques secondes. Il ne vous reste plus qu'à transférer votre dépôt de votre portefeuille vers ce nouveau compte réel pour ouvrir votre première transaction.",
+    "email-line-4": "Si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24 heures sur 24/7 par chat en direct, par e-mail ou en demandant à être rappelé sur notre site.",
+    "forgotten-your-deposit": "Auriez-vous oublié votre acompte? Commencez à trader avec {{mailer.info.name}} !"
+  },
+  "chaser-no-trades-yet-1": {
+    "you-funds-are-now-live": "Vos fonds sont maintenant disponibles sur votre compte MetaTrader, mais vous n'avez pas encore ouvert votre première transaction.",
+    "have-your-opened-your-first-trade": "Avez-vous ouvert votre premier trade avec {{mailer.info.name}} ?",
+    "now-that-you-have-verified-your-account": "Maintenant que vous avez vérifié votre compte et déposé des fonds dans votre portefeuille, il est temps d'effectuer votre première transaction.",
+    "offers-over-a-hundred-tradable-assets": "{{mailer.info.name}} propose plus d'une centaine d'actifs négociables avec toutes les fonctionnalités uniques dont vous avez besoin pour gérer efficacement vos risques.",
+    "open-your-first-trader": "Ouvrez votre première transaction : {{mailer.info.website}}/portfolio",
+    "if-the-button-does-not-work": "Si le bouton ci-dessus ne fonctionne pas, cliquez sur le lien ci-dessous :",
+    "create-watchlists-to-keep-track-of-your-investments": "Créez des listes de surveillance pour suivre vos investissements à tout moment, accédez à votre portefeuille unique et à votre historique de trading, et réduisez les risques en configurant un ordre Stop-Loss pour protéger vos transactions pendant que vous dormez.",
+    "access-the-ultimate-trading-features-with": "Accédez aux fonctionnalités de trading ultimes avec {{mailer.info.name}}. Si vous avez besoin d'aide, notre équipe de service clientèle est disponible 24h/24 et 7j/7 pour vous aider en cas de doute.",
+    "time-to-make-your-first-trade": "Il est temps de faire votre premier échange {{user.firstName}} !"
+  },
+  "chaser-no-trades-yet-2": {
+    "dont-forget-to-open-your-first-trade-today": "N'oubliez pas d'ouvrir votre premier trade aujourd'hui !",
+    "your-funds-are-in-your-live-mt-account": "Vos fonds sont sur votre compte MetaTrader en direct, alors pourquoi ne pas effectuer votre première transaction avec {{mailer.info.name}}. Cliquez sur le lien ci-dessous et commencez votre voyage de trading maintenant.",
+    "your-funds-and-account-now-live": "Vos fonds et votre compte sont désormais disponibles sur {{mailer.info.name}} !",
+    "once-again-we-thank-you-for-opening-an-account": "Encore une fois, nous vous remercions d'avoir ouvert un compte sur {{mailer.info.name}} et de vérifier votre profil. Le moment est venu pour vous de commencer à trader avec une commission de 0 %.",
+    "open-my-first-trade": "Ouvrir mon premier trade",
+    "if-the-link-does-not-work": "Si le bouton ci-dessus ne fonctionne pas, cliquez sur le lien ci-dessous :",
+    "at-name-you-can-access-all-the-unique-features-that-you-need": "Sur {{mailer.info.name}}, vous pouvez accéder à toutes les fonctionnalités uniques dont vous avez besoin pour devenir un trader prospère. Grâce à notre fonctionnalité Stop-Loss intégrée, vous pouvez commencer à trader plus d'une centaine d'actifs sereinement en limitant les risques au minimum. Créez également vos propres listes de surveillance afin de toujours rester au courant de vos investissements, accéder à votre portefeuille unique, à votre historique de trading et plus encore.",
+    "if-you-need-any-help-during-the-process": "Si vous avez besoin d'aide pendant le processus d'ouverture de votre première transaction, notre équipe d'assistance clientèle est disponible 24h/24 et 7j/7.",
+    "big-opportunities-ahead": "De grandes opportunités vous attendent {{user.firstName}} !",
+    "open-your-first-trade": "Ouvrez votre premier trade:"
+  },
+  "chaser-no-trades-yet-3": {
+    "with-live-funds-in-your-mt-account": "Si vous disposez de fonds réels sur votre compte MetaTrader, rien ne vous empêche d'ouvrir votre première transaction avec ${mailer.info.name}.",
+    "click-the-link-below": "Cliquez sur le lien ci-dessous et commencez votre parcours de trading en téléchargeant la plateforme MetaTrader et en vous connectant au compte réel que vous avez créé. N'oubliez pas que les informations de connexion se trouvent dans votre boîte de réception.",
+    "you-can-start-trading-now": "Vous pouvez commencer à trader MAINTENANT!",
+    "the-time-has-come-for-you-to-open-your-first-trader": "Le moment est venu pour vous d'ouvrir votre première transaction sur {{mailer.info.name}}, étant donné les perspectives volatiles des marchés ces derniers temps, les opportunités d'entrée ne doivent pas être ignorées.",
+    "open-your-first-trade": "Ouvrez votre premier trade:",
+    "trade-over-a-hundred-of-assets-with-zero-percent-commission": "Tradez plus d'une centaine d'actifs avec 0% de commission et accédez aux outils de trading uniques dont vous avez besoin pour devenir le meilleur trader possible. Accédez à votre portefeuille unique et à votre historique de trading, réduisez les risques à l'aide de notre fonction Stop-Loss et créez votre liste de surveillance unique pour suivre efficacement vos investissements.",
+    "if-need-further-assistance": "Si vous avez besoin d'une assistance supplémentaire, notre équipe de service clientèle sera là pour vous aider 24h/24 et 7j/7.",
+    "dont-wait-any-longer-and-take-a-step": "N'attendez plus et faites un pas de plus vers vos objectifs dès aujourd'hui.",
+    "market-volatility-means-profit-potential": "La volatilité du marché signifie un potentiel de profit {{user.firstName}} !"
+  },
+  "chaser-no-trades-yet-4": {
+    "as-your-funds-are-ready-to-go": "Lorsque vos fonds sont prêts à être versés sur votre compte MetaTrader en direct, vous pourrez ouvrir votre première transaction. N'oubliez pas que ce n'est qu'en faisant le premier pas que la récompense potentielle se transforme en opportunité!",
+    "you-first-trade-is-one-step-away": "Votre premier échange n'est plus qu'à un pas avec {{mailer.info.name}}",
+    "all-the-features-you-need-to-make-profit": "Toutes les fonctionnalités dont vous avez besoin pour faire des profits {{user.firstName}} !",
+    "are-you-ready-to-trade-over-a-hundred-assets": "Êtes-vous prêt à trader plus d'une centaine d'actifs sur {{mailer.info.name}} ?",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "Les marchés traversent une période de volatilité et, grâce à nos fonctionnalités uniques, vous pouvez tirer le meilleur parti de toute opportunité qui se présente à vous. Avec notre fonction Stop-Loss, vous pouvez commencer à trader avec des risques réduits au minimum.",
+    "open-you-first-trade": "Ouvrez votre premier trade:",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "Si cela ne suffisait pas, accédez à votre portefeuille unique, à votre historique de trading et créez vos propres listes de surveillance pour toujours suivre vos investissements. Nous fournissons une plate-forme qui vous permet de négocier avec 0 % de commission de la manière la plus simple et la plus efficace possible. Commencez dès aujourd'hui !",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": "Si vous avez besoin d'aide au moment de passer votre première transaction, n'hésitez pas à contacter notre service clientèle, disponible 24h/24 et 7j/7."
+  },
+  "chaser-no-trades-yet-recurring": {
+    "quite-some-time-has-passed": "un certain temps s'est écoulé et nous voulions vous contacter au sujet de votre compte et de l'opportunité qui vous attend !",
+    "as-your-funds-are-ready": "Lorsque vos fonds sont prêts à être versés sur votre compte MetaTrader en direct, vous êtes prêt à aller de l'avant et à ouvrir votre première transaction. N'oubliez pas que ce n'est qu'en faisant le premier pas que la récompense potentielle se transforme en opportunité !",
+    "your-first-trade-is-one-step-away": "Votre premier échange n'est plus qu'à un pas avec {{mailer.info.name}}",
+    "all-the-features-you-need-to-make-profit": "Toutes les fonctionnalités dont vous avez besoin pour faire des profits {{user.firstName}}!",
+    "are-you-ready-to-trade-over-a-hundred-assets": "Êtes-vous prêt à trader plus d'une centaine d'actifs sur {{mailer.info.name}} ?",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "Les marchés traversent une période de volatilité et, grâce à nos fonctionnalités uniques, vous pouvez tirer le meilleur parti de toute opportunité qui se présente à vous. Avec notre fonction Stop-Loss, vous pouvez commencer à trader avec des risques réduits au minimum.",
+    "open-you-first-trade": "Ouvrez votre premier trade:",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "Si cela ne suffisait pas, accédez à votre portefeuille unique, à votre historique de trading et créez vos propres listes de surveillance pour toujours suivre vos investissements. Nous fournissons une plate-forme qui vous permet de négocier avec 0 % de commission de la manière la plus simple et la plus efficace possible. Commencez dès aujourd'hui !",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": "\nSi vous avez besoin d'aide au moment de passer votre première transaction, n'hésitez pas à contacter notre service clientèle, disponible 24h/24 et 7j/7."
+  },
+  "chaser-no-transfers-yet-1": {
+    "your-mt-account-is-live": "Votre compte MetaTrader est maintenant en ligne!",
+    "all-you-need-to-do-is-to-transfer-funds": "Tout ce que vous avez à faire est de transférer des fonds de votre compte {{mailer.info.name}} vers votre compte MetaTrader en direct pour commencer à trader.",
+    "you-can-do-this-by-clicking-the-link-below": "Vous pouvez le faire en cliquant sur le lien ci-dessous",
+    "you-can-do-this-by-clicking-the-button-below": "Vous pouvez le faire en cliquant sur le bouton ci-dessous.",
+    "transfer-your-funds-today": "Transférez vos fonds aujourd'hui pour commencer à trader !"
+  },
+  "chaser-no-transfers-yet-2": {
+    "we-want-you-to-enjoy-your-experience": "nous voulons que vous appréciiez votre expérience avec {{mailer.info.name}}.",
+    "your-next-step-is-to-transfer-funds": "Votre prochaine étape consiste à transférer des fonds de votre portefeuille de compte vers votre compte MetaTrader en direct pour commencer à trader",
+    "have-you-transferred-funds": "Avez-vous transféré des fonds sur votre compte Live {{mailer.info.name}}?"
+  },
+  "chaser-no-transfers-yet-3": {
+    "time-is-running-out": "Le temps presse. Déposez maintenant!",
+    "start-utilising-the-benefits": "Commencez à utiliser les avantages de {{mailer.info.name}} dès aujourd'hui en cliquant sur le lien \"Transférer des fonds\" ci-dessous.",
+    "transfer-your-funds-today": "Transférez vos fonds aujourd'hui pour commencer à trader avec {{mailer.info.name}} !"
+  },
+  "chaser-no-transfers-yet-4": {
+    "we-note-that-you-still-have-not": "nous notons que vous n'avez toujours pas encore effectué de transfert vers votre compte MetaTrader en direct avec {{mailer.info.name}} et nous souhaitions vous contacter une fois de plus pour nous assurer que vous étiez au courant des ressources d'aide à la clientèle à votre disposition.",
+    "our-customer-support-team-is-available": "Notre équipe de service clientèle est disponible 24h/24 et 7j/7 via chat en direct, e-mail ou si vous avez besoin d'une assistance plus personnalisée et préférez parler à quelqu'un par téléphone, veuillez demander un rappel de notre site pendant un moment qui vous convient !",
+    "you-can-transfer-funds-from-your-account": "Vous pouvez transférer des fonds de votre portefeuille de compte vers votre compte MetaTrader en direct pour commencer à trader en cliquant sur le lien ci-dessous.",
+    "we-want-you-to-enjoy-your-experience": "nous voulons que vous appréciiez votre expérience avec {{mailer.info.name}}.",
+    "have-you-transferred-funds": "Avez-vous transféré des fonds sur votre compte Live {{mailer.info.name}}?"
+  },
+  "chaser-no-transfers-yet-recurring": {
+    "we-are-reaching-out-as-it-has-been-a-while": "Cela fait un moment que notre équipe ne vous à pas contacter. ",
+    "we-note-that-you-still-have-not": "Nous notons que vous n'avez toujours pas encore effectué de transfert vers votre compte MetaTrader en direct avec {{mailer.info.name}} et nous souhaitions vous recontacter pour nous assurer que vous étiez au courant des ressources d'aide à la clientèle à votre disposition.",
+    "our-customer-support-team-is-available": "Notre équipe de service clientèle est disponible 24h/24 et 7j/7 via chat en direct, e-mail ou si vous avez besoin d'une assistance plus personnalisée et préférez parler à quelqu'un par téléphone, veuillez demander un rappel de notre site pendant un moment qui vous convient !",
+    "you-can-transfer-funds-from-your": "Vous pouvez transférer des fonds de votre portefeuille de compte vers votre compte MetaTrader en direct pour commencer à trader en cliquant sur le lien ci-dessous.",
+    "have-you-transferred-funds-into": "Avez-vous transféré des fonds sur votre compte Live {{mailer.info.name}}?"
+  },
+  "chaser-not-user-yet-1": {
+    "email-line-1": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}",
+    "email-line-2": "cependant, vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "email-line-3": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "email-line-4": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception",
+    "email-line-5": " pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "email-line-6": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte.",
+    "steps-to-signing-up-with": "Étapes pour s'inscrire avec {{mailer.info.name}}",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte.",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "chaser-not-user-yet-2": {
+    "html-line-1": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}",
+    "html-line-2": "mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "html-line-3": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "html-line-4": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception ",
+    "html-line-5": "pour confirmer que vous souhaitez recevoir des e-mails de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "html-line-6": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte.",
+    "steps-to-signing-up-with": "Étapes pour s'inscrire avec {{mailer.info.name}}",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte. ",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "chaser-not-user-yet-3": {
+    "html-line-1": "Nous devons vérifier vos coordonnées avant que vous puissiez effectuer votre premier dépôt et commencer à trader.",
+    "html-line-2": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "html-line-3": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. ",
+    "html-line-4": "Cela sera également essentiel pour votre futur parcours de trading.",
+    "html-line-5": "Si vous avez besoin d'aide ou si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24h/7 par chat en ligne ou par e-mail à l'adresse {{mailer.info.support}}",
+    "html-line-6": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte. Dépêchez-vous, le lien va bientôt expirer!",
+    "verification-required-on-your": "Vérification requise sur votre compte {{mailer.info.name}} !",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte. ",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "chaser-not-user-yet-4": {
+    "html-line-1": "Nous devons vérifier vos coordonnées avant que vous puissiez effectuer votre premier dépôt et commencer à trader.",
+    "html-line-2": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "html-line-3": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. ",
+    "html-line-4": "Cela sera également essentiel pour votre futur parcours de trading.",
+    "html-line-5": "Si vous avez besoin d'aide ou si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24h/7 par chat en ligne ou par e-mail à l'adresse {{mailer.info.support}}",
+    "html-line-6": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte. Dépêchez-vous, le lien va bientôt expirer!",
+    "verification-required-on-your-account": "Vérification requise sur votre compte {{mailer.info.name}} !",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Cliquez sur le lien ci-dessous pour vérifier votre compte.",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "chaser-not-user-yet-5": {
+    "html-line-1": "Nous devons vérifier vos coordonnées avant que vous puissiez effectuer votre premier dépôt et commencer à trader.",
+    "html-line-2": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "html-line-3": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part.",
+    "html-line-4": "Cela sera également essentiel pour votre futur parcours de trading.",
+    "html-line-5": "Si vous avez besoin d'aide ou si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance 24h/7 par chat en ligne ou par e-mail à l'adresse {{mailer.info.support}}",
+    "html-line-6": "Veuillez cliquer sur le lien ci-dessous pour vérifier votre compte. Dépêchez-vous, le lien va bientôt expirer!",
+    "verification-required-on-your-account": "Vérification requise sur votre compte {{mailer.info.name}} !",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Cliquez sur le lien ci-dessous pour vérifier votre compte.",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "chaser-not-user-yet-6": {
+    "html-line-1": "C'est votre dernière chance de compléter vos coordonnées et d'ouvrir votre compte de trading avec {{mailer.info.name}}.",
+    "html-line-2": "Votre candidature expirera dans 24 heures, veuillez donc cliquer sur le bouton \"Vérifier maintenant\" ci-dessous.",
+    "html-line-3": "Après que 7 jours se soient écoulés depuis votre inscription, le lien ne fonctionnera plus et vous serez libre de vous inscrire à nouveau depuis notre site.",
+    "html-line-4": "Si vous avez besoin d'aide, n'hésitez pas à nous contacter.",
+    "html-line-5": "Nous avons une équipe de service client dédiée et disponible via le chat en direct 24h/24 et 7j/7 ainsi que par e-mail à {{mailer.info.support}}",
+    "verify-now": "Vérifiez maintenant",
+    "last-chance-to-verify-your-account": "Dernière chance de vérifier votre compte {{mailer.info.name}} - Agissez maintenant!",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Merci de vous être inscrit! Il est temps de vérifier votre adresse e-mail {{user.firstName}} !",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "Vous vous êtes inscrit pour devenir un utilisateur de la communauté de trading {{mailer.info.name}}, mais vous n'avez pas encore cliqué sur le lien qui vous a été envoyé par courriel pour vérifier votre adresse e-mail et ouvrir votre compte chez nous.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Certains de nos nouveaux utilisateurs nous ont fait savoir que l'e-mail de vérification était récemment allé dans leur dossier spam/courrier indésirable.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "Nous apprécions si vous pouviez vérifier vos dossiers et déplacer cet e-mail dans votre boîte de réception pour confirmer que vous souhaitez recevoir du courriel de notre part. Cela sera également essentiel pour votre futur parcours de trading.",
+    "simply-click-the-link-below-to-verify-your-account": "Cliquez simplement sur le lien ci-dessous pour vérifier votre compte.",
+    "verify-your-email": "Vérifiez votre e-mail"
+  },
+  "competition-account-created": {
+    "html-text-1": "Vous vous êtes inscrit avec succès pour votre compte MetaTrader Competition avec {{mailer.info.fullName}} et vous n'êtes plus qu'à quelques instants de découvrir le monde passionnant du FX en ligne.",
+    "html-text-2": "Une fois que vous avez installé votre application préférée à partir des liens ci-dessous, vous pouvez vous connecter en utilisant votre nom d'utilisateur et votre mot de passe.",
+    "html-text-3": "Votre nom d'utilisateur et votre mot de passe vous donnent accès à votre compte en direct. Cependant, pour commencer à trader, vous devez effectuer un dépôt. Effectuez un dépôt sur votre compte réel depuis votre salle de trading et commencez à trader.",
+    "html-text-4": "Pour gagner au concours des commerçants, vous devez vous conformer aux règles du concours, et seuls les échanges effectués entre les dates du concours seront pris en compte.",
+    "html-text-5": "Vos identifiants de connexion MetaTrader Competition sont les suivants :",
+    "new-mt-competition-account-created": "Nouveau compte de compétition MetaTrader créé !"
+  },
+  "corporate-account-activation-email": {
+    "welcome": "{{mailer.info.name}} souhaite la bienvenue à {{user.fullName}} !",
+    "email-line-1": "Rien que quelques pas restent afin de vérifier votre compte professionnel avec {{mailer.info.name}}!",
+    "email-line-2": "Une fois que l'identité de votre personne autorisée a été vérifiée et que les documents de votre entreprise ont été examinés et approuvés, vous pouvez déposer et commencer à trader immédiatement.",
+    "your-next-steps": "Vos prochaines étapes:",
+    "step-1": "Étape 1 : Connectez-vous",
+    "step-1-description": "Connectez-vous à votre compte professionnel {{mailer.info.name}}.",
+    "step-2": "Étape 2 : Vérification de l'identité de la personne autorisée",
+    "step-2-description": "Dans un premier temps, il est important de procéder à la vérification de votre identité en tant que Personne Autorisée. Veuillez cliquer sur l'onglet Vérification KYC pour passer par ce processus rapide et facile. L'identité de la personne autorisée doit être vérifiée, elle devra donc effectuer ce processus en ayant sa preuve d'identité en main à l'aide d'un appareil doté d'une caméra.",
+    "step-3": "Étape 3 : Documents de l'entreprise",
+    "step-3-description": "Nous avons généralement besoin des documents ci-dessous pour vérifier un compte professionnel :",
+    "company-documents-1": "Certificat d'incorporation",
+    "company-documents-2": "Mémorandum et statuts de l'association",
+    "company-documents-3": "Résolution d'entreprise pour l'ouverture d'un compte adressée à {{mailer.info.name}}.",
+    "company-documents-4": "Registre des actionnaires",
+    "company-documents-5": "Certificat de régularité",
+    "company-documents-6": "Adresse de l'entreprise",
+    "company-documents-7": "VérificationInformations sur l'administrateur et les actionnaires : tous les actionnaires détenant 25 % ou plus du capital social doivent être indiqués.",
+    "company-documents-8": "Vérification de l'adresse des administrateurs",
+    "company-documents-9": "Preuve d'identification du directeur",
+    "company-documents-10": "Vérification de l'adresse de l'UBO",
+    "company-documents-11": "Preuve d'identité de l'UBO/s",
+    "company-documents-12": "Registre des actionnaires",
+    "company-documents-13": "Registre des administrateurs",
+    "email-line-3": "Nous sommes conscients que les noms de ces documents peuvent varier selon les structures et les juridictions, ou que certains peuvent ne pas être applicables dans certains cas.",
+    "email-line-4": "Veuillez noter que des frais de {{deposit.feeamount}} ont été déduits de votre dépôt.",
+    "email-line-5": "Dans l'intervalle, si vous avez des questions, notre équipe d'assistance est disponible 24/7 par le biais d'un chat en ligne, d'un e-mail ou d'une demande de rappel sur notre site."
+  },
+  "demo-account-created": {
+    "html-line-2": "Vous vous êtes inscrit avec succès pour votre compte de démonstration MetaTrader. Vos informations de connexion MetaTrader sont les suivantes :",
+    "html-line-3": "Vous vous êtes enregistré avec succès pour votre compte de démonstration MetaTrader avec {{mailer.info.fullName}} et vous n'êtes plus qu'à quelques instants de découvrir le monde passionnant du FX en ligne.",
+    "html-line-4": "Une fois que vous avez installé votre application préférée à partir des liens ci-dessous, vous pouvez vous connecter en utilisant votre nom d'utilisateur et votre mot de passe.",
+    "html-line-5": "Votre nom d'utilisateur et votre mot de passe vous donnent accès à votre compte en direct. Cependant, pour commencer à trader, vous devez effectuer un dépôt. Effectuez un dépôt sur votre compte réel depuis votre salle de trading et commencez à trader.",
+    "html-line-6": "Vos données de connexion MetaTrader sont les suivantes:",
+    "subject": "Nouveau compte MetaTrader démo créé !",
+    "html-line-1": "Vous avez un nouveau compte de démonstration MetaTrader."
+  },
+  "demo-account-engagement-1": {
+    "html-line-1": "Wow ! Il semble que vous ayez vraiment fait vos preuves sur notre compte de démonstration et vous êtes maintenant prêt à rejoindre les pros.",
+    "html-line-2": "Une fois que vous aurez ouvert un compte réel avec {{mailer.info.name}}, vous ouvrirez un monde de possibilités et pourrez trader en direct sur les marchés du forex et des crypto.",
+    "html-line-3": "Vous aurez également accès à notre vaste bibliothèque éducative remplie de guides utiles, de tutoriels et de blogs spécialement conçus pour les traders ayant différents niveaux d'expérience dans le secteur.",
+    "html-line-4": "Êtes-vous prêt à faire passer votre trading au niveau supérieur?",
+    "html-line-5": "L'équipe du service clientèle de {{mailer.info.name}} est disponible 24 heures sur 24/7 par chat en direct ou par e-mail à {{mailer.info.support}}.",
+    "sign-up": "Inscrivez-vous",
+    "subject": "Faites passer votre trading au niveau supérieur"
+  },
+  "deposit-approved-with-fee": {
+    "html-line-1": "Votre dépôt de {{deposit.amount}} a été approuvé pour {{deposit.received}} avec des frais de {{deposit.feeamount}}. Votre portefeuille {{mailer.info.shortName}} a été mis à jour avec {{deposit.approved}}.",
+    "subject": "{{deposit.comment}} Votre dépôt de {{deposit.amount}} a été approuvé.",
+    "deposit-approved-with-fee": "Dépôt approuvé avec frais",
+    "your-deposit-has-been": "Votre dépôt a été effectué",
+    "successful": "avec succès!",
+    "fee-is-deducted": "Please note that a {{deposit.feeamount}} fee has been deducted from your deposit.",
+    "ready-to-join": "Prêt à participer à l'action? La communauté {{mailer.info.name}} t'attend.",
+    "click-to-trade": "Cliquez ici pour échanger, apprendre ou partager.",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "deposit-approved": {
+    "html-line-1": "Votre dépôt de {{deposit.amount}} a été approuvé pour {{deposit.approved}}. Votre portefeuille {{mailer.info.shortName}} a été mis à jour avec {{deposit.approved}}.",
+    "subject": "{{deposit.comment}} Votre dépôt de {{deposit.amount}} a été approuvé",
+    "deposit-approved": "Dépôt approuvé",
+    "your-deposit-has-been": "Votre dépôt a été effectué",
+    "successful": "avec succès!",
+    "ready-to-join": "Prêt à participer à l'action? La communauté {{mailer.info.name}} t'attend.",
+    "click-to-trade": "Cliquez ici pour échanger, apprendre ou partager.",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "deposit-cc-approved": {
+    "html-line-2": "Votre portefeuille {{mailer.info.shortName}} a été mis à jour, profitez-en.",
+    "html-line-1": "Votre dépôt de {{deposit.amount}} a été approuvé pour {{deposit.approved}}."
+  },
+  "deposit-cc-rejected": {
+    "html-line-2": "Nous avons rencontré un problème avec votre dépôt, veuillez réessayer.",
+    "html-line-1": "Votre dépôt de {{deposit.amount}} a été rejeté!"
+  },
+  "deposit-rejected": {
+    "html-line-2": "Raison : {{deposit.comment}}",
+    "html-line-1": "Votre dépôt de {{deposit.amount}} a été rejeté à cause de {{deposit.comment}}.",
+    "subject": "{{deposit.comment}} Votre dépôt de {{deposit.amount}} a été rejeté",
+    "deposit-rejected": "dépôt a été rejeté",
+    "unfortunately-your-deposit-has-been": "Malheureusement, votre dépôt a été",
+    "rejected": "rejeté!",
+    "get-in-touch": "Veuillez nous contacter à {{mailer.info.support}} ou par chat afin que nous puissions vous donner plus d'informations.",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "deposit-reminder": {
+    "html-line-1": "Nous nous avons remarqué que vous avez essayé de déposer des fonds sur votre compte {{mailer.info.shortName}} mais vous n'avez pas réussi à compléter le processus.",
+    "html-line-2": "Ajouter des fonds sur votre compte {{mailer.info.shortName}} est facile ! Commencez votre parcours de trading avec {{mailer.info.shortName}} aujourd'hui et suivez les étapes ci-dessous :",
+    "step-1": "1. Connectez-vous / Inscrivez-vous",
+    "step-2": "2. Accédez à « Déposer des fonds ».",
+    "step-3": "3. Choisissez votre méthode et suivez les instructions.",
+    "html-line-3": "Vous pouvez trouver la section FAQ avec des guides détaillés sur la façon de déposer avec nos différentes méthodes de dépôt en cliquant ici.",
+    "html-line-4": "Vous avez des questions? Nos agents du service clientèle sont disponibles 24 heures sur 24, 7 jours sur 7. Chattez avec eux depuis notre page d'accueil ou envoyez-leur un e-mail.",
+    "subject": "Dépôt en attente"
+  },
+  "deposit-reupload-document": {
+    "html-line-1": "Votre dépôt de {{deposit.amount}} {{deposit.currency}} est toujours en attente d'une preuve de transfert.",
+    "html-line-2": "Veuillez télécharger une nouvelle capture d'écran de preuve de transfert à partir de la page Dépôts.",
+    "subject": "Votre dépôt de {{deposit.amount}} {{deposit.currency}} est toujours en attente"
+  },
+  "deposit-skrill": {
+    "html-line-1": "Votre dépôt Skrill de {{deposit.amount}} est en cours d'examen.",
+    "subject": "Examen du dépôt Skrill en attente pour {{deposit.amount}}"
+  },
+  "deposit-wt-upload": {
+    "html-line-1": "Nous avons besoin de votre reçu de dépôt pour approuver votre récent virement bancaire de {{deposit.amount}}",
+    "html-line-2": "Le reçu doit indiquer clairement l'heure/la date, le montant et le statut du virement si possible.",
+    "subject": "Virement bancaire en attente pour {{deposit.amount}}"
+  },
+  "deposit-wt-uploaded": {
+    "html-line-1": "Votre preuve de transfert pour la demande de dépôt de {{deposit.amount}} {{deposit.currency}} avec l'ID de transaction {{deposit._id}} a été téléchargée avec succès et est en cours d'examen.",
+    "subject": "Votre preuve de transfert a été téléchargée"
+  },
+  "deposit-zelle": {
+    "html-line-1": "Votre récent dépôt Zelle de {{deposit.amount}} est en attente d'approbation.",
+    "html-line-2": "Elle sera approuvée après que vous aurez envoyé {{deposit.amount}} à {{deposit.zellename}} à cette adresse e-mail {{deposit.email}}.",
+    "subject": "Dépôt Zelle en attente d'approbation pour {{deposit.amount}}"
+  },
+  "document-rejected-both": {
+    "html-line-6": "Vos documents ont été rejetés.",
+    "html-line-7": "Votre document pour le reçu <strong>{{docs[0].type}}</strong> a été rejeté. Raison : {{docs[0].comment}}. Veuillez vous connecter et soumettre à nouveau un document pour <strong>{{docs[0].type}}</strong>",
+    "html-line-8": "Votre document pour le reçu <strong>{{docs[1].type}}</strong> a été rejeté. Raison : {{docs[1].comment}}. Veuillez vous connecter et soumettre à nouveau un document pour <strong>{{docs[1].type}}</strong>",
+    "subject": "Nous avons détecté un problème avec vos deux documents…",
+    "html-line-1": "Nous avons détecté un problème avec l'un de vos documents. Vous pouvez le réparer!",
+    "html-line-2": "Document: {{docs[0].type}}",
+    "html-line-3": "Commentaires: {{docs[0].comments}}",
+    "html-line-4": "Document: {{docs[1].type}}",
+    "html-line-5": "Commentaires: {{docs[1].comments}}"
+  },
+  "document-rejected": {
+    "html-line-4": "Un document a été rejeté.",
+    "html-line-5": "Votre document pour le reçu <strong>{{doc.type}}</strong> a été rejeté.",
+    "html-line-6": "Raison : {{doc.comment}}. Veuillez vous connecter et soumettre à nouveau un document pour <strong>{{doc.type}}</strong>",
+    "subject": "Nous avons trouvé un problème avec l'un de vos documents…",
+    "html-line-1": "Nous avons détecté un problème avec l'un de vos documents. Vous pouvez le réparer!",
+    "html-line-2": "Document: {{doc.type}}",
+    "html-line-3": "Commentaires: {{doc.comment}}"
+  },
+  "document-review": {
+    "html-line-2": "Un document a été téléchargé.",
+    "html-line-3": "Veuillez patienter pendant que notre équipe l'examine.",
+    "subject": "Merci d'avoir téléchargé votre document, nous sommes en train de l'examiner !",
+    "html-line-1": "Merci d'avoir téléchargé votre document. Nous allons maintenant l'examiner et l'approuver."
+  },
+  "document-updated": {
+    "html-line-5": "Un document a été téléchargé.",
+    "html-line-6": "Bonjour à l'équipe,",
+    "html-line-2": "L'utilisateur {{user.fullName}} ({{user._id}}) a mis à jour ses documents :",
+    "html-line-3": "Index : {{doc._id}}",
+    "html-line-4": "Document : {{doc.type}}",
+    "subject": "L'utilisateur {{user.fullName}} a mis à jour ses documents.",
+    "html-line-1": "Bonjour,"
+  },
+  "email-exist-unable-to-create-account": {
+    "html-line-1": "Nous notons que vous avez tenté de créer un compte supplémentaire avec {{mailer.info.shortName}} en utilisant une adresse e-mail déjà utilisée, mais nous ne pouvons autoriser chaque utilisateur à avoir qu'un seul compte conformément à nos conditions générales.",
+    "html-line-2": "Si nous identifions des comptes supplémentaires appartenant à un client tout au long de son parcours sur notre Plateforme, nous exigeons la fermeture immédiate du ou des comptes dupliqués.",
+    "html-line-3": "Si vous avez oublié votre mot de passe, veuillez vous rendre sur le lien ci-dessous pour le réinitialiser et accéder à votre compte. Veuillez utiliser l'adresse e-mail sur laquelle vous avez reçu cet e-mail.",
+    "html-line-4": "Nous sommes disponibles 24/7 via le chat en ligne, l'e-mail et les demandes de rappel faites depuis notre site Web.",
+    "subject": "Nous ne sommes pas en mesure de créer votre compte"
+  },
+  "forex-squad-signup": {
+    "html-line-4": "Inscription à Forex Squad",
+    "html-line-2": "Il est temps de créer un mot de passe sécurisé.",
+    "html-line-3": "Veuillez utiliser le lien ci-dessous pour le faire",
+    "html-line-5": "Créez votre mot de passe sur Forex Squad",
+    "subject": "Bienvenue sur ForexSquad {{user.firstName}}",
+    "html-line-1": "FOREXSQUAD"
+  },
+  "global-notification-email": {
+    "html-line-1": "Veuillez noter que vous avez reçu une notification de {{mailer.info.name}}",
+    "subject": "{{mailer.info.name}} La notification : {{subject}}",
+    "html-line-2": "Veuillez vous connecter à votre compte si vous souhaitez voir toutes les notifications"
+  },
+  "global-notification": {
+    "subject": "{{mailer.info.name}} La notification : {{subject}}",
+    "notification": "La notification"
+  },
+  "ib-registration": {
+    "html-line-1": "Un compte partenaire a été créé avec succès pour vous :",
+    "partner-referral-id": "ID de parrainage du partenaire {{payload.referralId}}",
+    "email-address": "Adresse e-mail {{payload.emailAddress}}",
+    "password": "Mot de passe {{payload.password}}",
+    "partners-admin-url": "URL d'administration des partenaires {{payload.portalURL}}",
+    "partner-portal": "Portail des partenaires",
+    "subject": "Bienvenue dans le système de partenaires {{mailer.info.name}}"
+  },
+  "instacoins-deposit-details": {
+    "html-line-5": "Veuillez cliquer sur le lien ci-dessous pour procéder au dépôt de {{deposit.amount}}.",
+    "html-line-1": "Veuillez cliquer sur le lien ci-dessous pour effectuer votre dépôt.",
+    "html-line-2": "Vous serez dirigé vers le fournisseur et devrez soit créer un compte, soit vous connecter à votre compte existant.",
+    "html-line-3": "Les fonds pour ce dépôt doivent être envoyés à l'adresse Bitcoin unique suivante qui sera remplie automatiquement en suivant le lien de dépôt ci-dessous : {{deposit.adresse}}",
+    "html-line-4": "Veuillez vous assurer que vous 'autorisez' la transaction comme étape finale depuis votre section 'Mon compte'.",
+    "subject": "Demande de dépôt de {{deposit.amount}}"
+  },
+  "instacoins-kyc": {
+    "html-line-2": "Vous pouvez maintenant activer votre compte Instacoins et déposer avec Bitcoin via une carte de crédit/débit sur Instacoins.",
+    "html-line-1": "Vos documents de paiement ont été approuvés! Vous pouvez maintenant activer votre compte instacoins.",
+    "subject": "Vos documents de paiement ont été approuvés!"
+  },
+  "internal-ib-created": {
+    "html-line-1": "Vous êtes officiellement un affilié de {{mailer.info.fullName}}! Nous sommes ravis que vous ayez rejoint notre prestigieux programme et que vous représentiez une maison de courtage où nous nous concentrons uniquement sur le client.",
+    "html-line-2": "Vous trouverez ci-dessous votre lien d'affiliation:",
+    "html-line-3": "Partagez ce lien avec vos amis, votre famille et votre communauté de traders pour gagner des commissions!",
+    "html-line-4": "Notre programme offre une rémunération lucrative pour le parrainage de clients. Nous sommes convaincus que les clients que vous nous recommandez seront satisfaits de leur expérience chez {{mailer.info.fullName}}.",
+    "html-line-5": "Alors, pourquoi choisir {{mailer.info.fullName}}? Voici quelques caractéristiques clés:",
+    "html-line-6": "Courtier STP - Nous fonctionnons selon un modèle de traitement direct (Straight Through Processing). Pas de B-Booking. Jamais. Par conséquent, aucun conflit d'intérêt. Dans une optique à long terme, votre succès est notre succès.",
+    "html-line-7": "Traitement rapide des paiements - Nous savons que le fait d'envoyer et de recevoir vos fonds aussi rapidement que possible rend l'expérience entière sans stress. Notre équipe s'efforce en permanence de fournir le traitement le plus rapide du secteur.",
+    "html-line-8": "Une fois encore, nous vous remercions d'avoir choisi de rejoindre notre programme d'affiliation. Nous espérons continuer à vous offrir une expérience satisfaisante, à vous et à vos futurs filleuls que vous aurez référés à {{mailer.info.fullName}}.",
+    "subject": "Gagnez le plus en tant qu'affilié {{mailer.info.fullName}} !",
+    "affiliate-account-created": "Compte affilié créé",
+    "congrats-you-are-now-a": "Toutes nos félicitations! Vous êtes maintenant un",
+    "brand-affiliate": "{{mailer.info.name}} affilié",
+    "spread-the-revolution": "\nDiffusez la révolution et présentez l'avenir du trading à d'autres traders en partageant votre lien d'affiliation, que vous trouverez ici.",
+    "access-your-brand-account": "Accédez à votre compte {{mailer.info.name}}"
+  },
+  "internal-transfer-approved": {
+    "html-line-2": "Pour consulter vos transferts internes, veuillez vous connecter.",
+    "html-line-1": "Votre transfert de {{transfer.amount}} de {{transfer.type}}a été approuvé!"
+  },
+  "internal-transfer-rejected": {
+    "html-line-2": "Pour consulter vos transferts internes, veuillez vous connecter.",
+    "html-line-1": "Votre virement de {{transfer.amount}} de {{transfer.type}} a été rejeté!"
+  },
+  "kyc-expire-in-15": {
+    "subject": "Mise à jour KYC - Expire dans 15 jours",
+    "html-line-1": "Nous espérons que cet e-mail vous trouvera bien. Soyez assuré que la sécurité de votre compte est d'une importance primordiale et nous vous écrivons pour bien vouloir nous aider avec la demande suivante.",
+    "html-line-2": "Après examen de votre compte, nous avons appris que votre pièce d'identité expirera dans les 15 jours.",
+    "html-line-3": "Veuillez noter qu'une fois la date d'expiration passée, vous êtes tenu de compléter le processus de vérification et de nous fournir une pièce d'identité valide et à jour.",
+    "html-line-4": "Si vous avez d'autres questions, veuillez consulter notre section FAQ ou si vous souhaitez renouveler vos documents, contactez-nous directement par chat en direct ou par e-mail.",
+    "html-line-5": "Nous vous remercions de votre coopération,"
+  },
+  "kyc-expire-in-30": {
+    "subject": "Mise à jour KYC - Expire dans 30 jours",
+    "html-line-1": "Nous espérons que cet e-mail vous trouvera bien. Soyez assuré que la sécurité de votre compte est d'une importance primordiale et nous vous écrivons donc pour bien vouloir nous aider avec la demande suivante.",
+    "html-line-2": "Après examen de votre compte, nous avons appris que votre pièce d'identité expirera dans les 30 jours.",
+    "html-line-3": "Veuillez noter qu'une fois la date d'expiration passée, vous êtes tenu de compléter le processus de vérification et de nous fournir une pièce d'identité valide et à jour.",
+    "html-line-4": "Si vous avez d'autres questions, veuillez consulter notre section FAQ ou si vous souhaitez renouveler vos documents, contactez-nous directement par chat en direct ou par e-mail.",
+    "html-line-5": "Nous vous remercions de votre coopération,"
+  },
+  "kyc-expired": {
+    "subject": "KYC expiré",
+    "html-line-1": "Nous espérons que cet e-mail vous trouvera bien. Soyez assuré que la sécurité de votre compte est d'une importance primordiale et nous vous écrivons pour vous demander de bien vouloir nous aider avec la demande suivante.",
+    "html-line-2": "Après examen de votre compte, il est venu à notre attention que votre pièce d'identité était expirée.",
+    "html-line-3": "Veuillez noter qu'une fois la date d'expiration passée, vous êtes tenu de compléter le processus de vérification et de nous fournir une pièce d'identité valide et à jour.",
+    "html-line-4": "Si vous avez d'autres questions, veuillez consulter notre section FAQ ou si vous souhaitez renouveler vos documents, contactez-nous directement par chat en direct ou par e-mail.",
+    "html-line-5": "Nous vous remercions de votre coopération,"
+  },
+  "notification-created": {
+    "html-line-3": "Vous avez une nouvelle notification sur {{mailer.info.website}}.",
+    "html-line-1": "Vous avez une nouvelle notification!",
+    "html-line-2": "Connectez-vous pour vérifier vos notifications",
+    "login-to-your-account": "Connectez-vous à votre compte",
+    "subject": "Nouvelle notification sur {{mailer.info.website}} !"
+  },
+  "pamm-detach": {
+    "html-line-3": "Veuillez vous connecter pour consulter vos comptes.",
+    "html-line-1": "Votre compte {{account}} est maintenant détaché de {{systemName}}",
+    "subject": "Votre compte {{account}} est maintenant détaché de {{systemName}}",
+    "html-line-2": "Pour revoir vos comptes, connectez-vous ici : {{mailer.info.website}}/login"
+  },
+  "pamm-fund-account-created": {
+    "html-line-11": "Vous vous êtes inscrit avec succès pour votre compte MetaTrader PAMM Fund. Vos informations de connexion MetaTrader sont les suivantes :",
+    "html-line-1": "Vous avez créé avec succès votre compte de fonds MetaTrader PAMM avec {{mailer.info.shortName}} et vous êtes maintenant sur la bonne voie pour démarrer votre premier fonds d'investissement.",
+    "html-line-2": "Votre nom d'utilisateur et votre mot de passe de trader, comme ci-dessous, vous donneront accès à votre compte réel dans l'application MetaTrader de votre choix.",
+    "html-line-3": "Vos prochaines étapes:",
+    "html-line-4": "Étape 1 : Accédez au widget PAMM en cliquant sur le rouage pour \"Gérer\" votre fonds d'investissement à partir de votre compte {{mailer.info.shortName}}.",
+    "html-line-5": "Étape 2 : Vous devrez définir une « offre » pour vos investisseurs. L'offre définit vos frais d'investissement pour le compte de vos investisseurs. Chaque offre définie dans le cadre de votre Fonds peut être sélectionnée par vos investisseurs si vous rendez cette offre « publique ».",
+    "html-line-6": "Étape 3 : Vous devrez sélectionner l'intervalle de trading (la fréquence à laquelle les frais sont facturés aux investisseurs), le dépôt minimum, le retrait minimum, l'investissement initial minimum et les frais éventuels. Une fois que vous avez votre premier investisseur, vous ne pourrez PAS modifier une offre, mais vous pourrez créer des offres supplémentaires.",
+    "html-line-7": "Étape 4 : Une fois que vous êtes opérationnel avec vos premiers investisseurs, vous pouvez partager le \"Mot de passe de l'investisseur\" ci-dessous avec eux afin qu'ils puissent également consulter votre historique de trading et ouvrir des positions sur MetaTrader. Les investisseurs pourront également voir cela à partir du widget PAMM lors du roulement.",
+    "html-line-8": "Vous souhaiterez peut-être accéder à notre section FAQ pour obtenir des informations plus détaillées sur les comptes de fonds PAMM.",
+    "html-line-9": "Vos données de connexion MetaTrader sont les suivantes:",
+    "html-line-10": "Numéro de compte: {{compte.mt4AccountId}}",
+    "subject": "Nouveau compte de fonds MetaTrader PAMM créé !"
+  },
+  "pamm-investor-account-created": {
+    "html-line-11": "Vous vous êtes enregistré avec succès pour votre compte MetaTrader PAMM Investor. Vos informations de connexion MetaTrader sont les suivantes :",
+    "html-line-1": "Vous avez créé avec succès votre compte d'investisseur MetaTrader PAMM avec {{mailer.info.shortName}} !",
+    "html-line-2": "Vous êtes maintenant prêt à rechercher les fonds d'investissement que vous souhaitez rejoindre et les opportunités qui vous attendent en investissant avec les gestionnaires de fonds de votre choix.",
+    "html-line-3": "Vos prochaines étapes:",
+    "html-line-4": "Étape 1 : approvisionnez votre compte {{mailer.info.shortName}} et effectuez un transfert interne vers votre compte d'investisseur PAMM.",
+    "html-line-5": "Étape 2 : « Gérez » votre compte d'investisseur PAMM en utilisant l'icône représentant un rouage pour ouvrir le widget PAMM afin d'examiner une liste des comptes de fonds PAMM qui peuvent être rejoints.",
+    "html-line-6": "Étape 3 : Cliquez sur « Rejoindre » pour examiner les détails du compte de fonds, y compris la ou les offres faites par le gestionnaire de fonds de ce fonds. L'offre précise les frais que le gestionnaire prélèvera pour la gestion de vos fonds, veuillez donc les lire attentivement.",
+    "html-line-7": "Étape 4 : Utilisez les informations d'identification du compte d'investisseur PAMM comme ci-dessous et insérez le montant de votre investissement initial (en ligne avec l'investissement initial minimum fixé par le gestionnaire de fonds) pour l'offre que vous avez choisie au sein de ce fonds. Cliquez sur \"Investir\".",
+    "html-line-8": "Étape 5 : Votre gestionnaire de fonds acceptera votre investissement dans les 24 heures. Cet investissement apparaîtra dans le widget PAMM sous les demandes d'historique de fonds jusqu'à ce qu'il soit accepté.",
+    "html-line-9": "Vous souhaiterez peut-être accéder à notre section FAQ pour obtenir des informations plus détaillées sur les comptes d'investisseurs PAMM.",
+    "html-line-10": "Vos données de connexion MetaTrader sont les suivantes:",
+    "subject": "Nouveau compte d'investisseur MetaTrader PAMM créé !"
+  },
+  "pamm-joined": {
+    "html-line-3": "Veuillez vous connecter pour consulter vos comptes.",
+    "html-line-4": "Votre compte {{account}} est en train de copier {{systemName}}",
+    "subject": "Votre compte {{account}} est en train de copier {{systemName}}",
+    "html-line-1": "Votre compte {{account}} est maintenant copié dans {{systemName}}",
+    "html-line-2": "Pour revoir vos comptes, connectez-vous ici : {{mailer.info.website}}/login"
+  },
+  "pamm-master-account-created": {
+    "html-line-10": "Vous vous êtes enregistré avec succès pour votre compte MetaTrader PAMM Manager. Vos informations de connexion MetaTrader sont les suivantes :",
+    "html-line-1": "Vous avez créé avec succès votre compte MetaTrader PAMM Manager avec {{mailer.info.shortName}}!",
+    "html-line-2": "Vous êtes maintenant sur la voie de la création d'un monde d'opportunités de gains pour vous et vos investisseurs.",
+    "html-line-3": "Vos prochaines étapes:",
+    "html-line-4": "Étape 1 : Votre compte PAMM Manager est un compte non négociable et est uniquement utilisé pour gérer vos comptes de fonds PAMM. Vous devrez ouvrir votre premier compte de fonds PAMM pour permettre aux investisseurs de commencer à investir avec vous. Vos comptes de fonds PAMM sont ceux où vous négocierez au nom de ceux qui investissent dans votre fonds.",
+    "html-line-5": "Étape 2 : Choisissez le nom et la description de votre fonds d'investissement. Gardez à l'esprit qu'une fois que vous avez choisi le nom de votre fonds, celui-ci ne peut plus être modifié, mais vous pouvez ajuster la description si nécessaire. Le nom du fonds est unique, et c'est le principal moyen pour vos investisseurs de vous trouver.",
+    "html-line-6": "Étape 3 : \"Gérez\" vos comptes de fonds PAMM en cliquant sur l'icône de la roue dentée pour ouvrir le widget PAMM et configurer l'offre que vous souhaitez faire à vos investisseurs.",
+    "html-line-7": "Étape 4 : Les investisseurs \"rejoindront\" votre compte de fonds PAMM en acceptant une offre et en effectuant un investissement initial, qui peut être accepté par vous via le Widget PAMM ou sera automatiquement accepté en votre nom après 24 heures.",
+    "html-line-8": "Vous pouvez consulter notre section FAQ pour obtenir des informations plus détaillées sur les comptes de gestionnaires PAMM.",
+    "html-line-9": "Vos données de connexion MetaTrader sont les suivantes:",
+    "subject": "New MetaTrader PAMM Manager Account Created!"
+  },
+  "password-recovery": {
+    "html-line-2": "Vous avez demandé la réinitialisation de votre mot de passe. Cliquez sur le lien ci-dessous.",
+    "subject": "Réinitialiser votre mot de passe",
+    "html-line-1": "Nous avons reçu une demande de réinitialisation de votre mot de passe. Si vous n'avez pas fait la demande, ignorez cet e-mail. Vous pouvez réinitialiser votre mot de passe en utilisant ce lien :",
+    "reset-your-password": "Réinitialiser votre mot de passe",
+    "recently-request-for-reset": "Vous avez récemment demandé une réinitialisation du mot de passe de votre compte {{mailer.info.name}}",
+    "initiate-reset": "Vous pouvez utiliser le lien ci-dessous pour lancer la réinitialisation:",
+    "if-didnt-request-intro": "Si vous n'avez pas demandé cette action, votre compte peut être compromis. Vous devez procéder comme suit:",
+    "reset-step-1": "1. Connectez-vous immédiatement à {{mailer.info.website}} et changez votre mot de passe",
+    "reset-step-2": "2. Créez un ticket de support en informant notre équipe de support de l'incident:"
+  },
+  "suspended-country": {
+    "html-line-3": "Votre compte a été suspendu",
+    "html-line-1": "Nous souhaitons vous informer des conditions d'utilisation de notre site Web, notamment de la clause relative aux \"territoires restreints\".",
+    "html-line-4": "Si vous avez des questions, veuillez visiter notre section FAQ ou contactez-nous directement par chat en direct et par e-mail, et nous serons heureux de vous aider. Merci de votre collaboration.",
+    "subject": "Votre compte a été suspendu",
+    "html-line-2": "Nous sommes disponibles par chat en direct, par e-mail ou par le biais de notre FAQ.",
+    "suspended-country": "Pays suspendu",
+    "thanks-for-registering": "Merci de vous être inscrit chez nous !",
+    "we-are-sorry": "Nous sommes désolés de vous informer que le pays dans lequel vous êtes basé n'est pas dans la liste des pays dans lesquels nous opérons.",
+    "list-of-countries": "Liste des pays",
+    "we-operate-in": "Dans lesquels nous sommes actifs",
+    "get-in-touch": "Veuillez nous contacter à",
+    "talk-to-us": "ou par chat afin que nous puissions vous donner plus d'informations.",
+    "list-of-countries-title": "Liste des pays"
+  },
+  "suspended-duplicate-account": {
+    "html-line-5": "Votre compte a été suspendu",
+    "html-line-1": "Nous notons que vous avez tenté de créer un compte supplémentaire avec {{mailer.info.name}}, mais nous ne pouvons autoriser chaque utilisateur à avoir qu'un seul compte conformément à nos conditions générales.",
+    "html-line-2": "Nous avons procédé à la fermeture du Compte que vous avez créé et vous offrons notre assistance si vous rencontrez des difficultés pour accéder à votre Compte existant. Vous ne pourrez plus accéder à ce compte en double.",
+    "html-line-3": "Si vous avez oublié votre mot de passe, veuillez vous rendre sur le lien ci-dessous pour le réinitialiser et accéder à votre compte. Veuillez utiliser l'adresse e-mail sur laquelle vous avez reçu cet e-mail.",
+    "html-line-4": "Nous sommes disponibles 24/7 via le chat en ligne, l'e-mail et les demandes de rappel faites depuis notre site Web.",
+    "subject": "Notification de comptes multiples avec {{mailer.info.name}}"
+  },
+  "two-factor-disable-failed": {
+    "disable-2fa-failed": "Échec de la désactivation 2FA ",
+    "please-contact-support": "Veuillez contacter le service client"
+  },
+  "two-factor-disable-request": {
+    "html-line-1": "Nous avons reçu une demande de désactivation de votre 2FA sur votre compte {{mailer.info.name}}. Pour poursuivre cette demande, cliquez simplement sur le bouton ci-dessous et suivez quelques étapes simples.",
+    "html-line-2": "Si vous n'avez pas demandé la désactivation de votre 2FA, ignorez cet e-mail et nous vous conseillons de réinitialiser votre mot de passe.",
+    "html-line-3": "Désactiver votre authentification <br/>à deux facteurs",
+    "subject": "Désactivez votre 2FA"
+  },
+  "two-factor-disable-success": {
+    "html-line-1": "Vous avez réussi le processus de vérification et êtes en mesure de vous connecter à votre compte.",
+    "html-line-2": "Merci pour votre coopération, et si vous avez besoin de quoi que ce soit, notre équipe est disponible 24/7 pour vous aider.",
+    "subject": "Désactivation réussie du 2FA "
+  },
+  "two-factor-disable-user-account-locked": {
+    "html-line-1": "Pour garantir votre sécurité, votre compte est désormais verrouillé pendant 48 heures. Si vous ne souhaitez pas attendre aussi longtemps, veuillez contacter le service d'assistance, qui sera là pour vous aider.",
+    "html-line-2": "Si vous n'avez pas tenté de saisir vos coordonnées, ignorez cet e-mail et contactez l'assistance. Nous vous conseillons également de réinitialiser votre mot de passe.",
+    "subject": "Votre compte est verrouillé pendant 48 heures"
+  },
+  "two-factor-release-lock": {
+    "html-line-3": "COMPTE DÉBLOQUÉ",
+    "html-line-4": "Cliquez pour vous connecter",
+    "html-line-5": "Votre compte est <br/>verrouillé pendant 48 heures",
+    "html-line-1": "Votre compte a été verrouillé pendant 48 heures afin de garantir une sécurité totale tout en désactivant l'authentification multifactorielle. Vous êtes maintenant en mesure de vous connecter à votre compte.",
+    "html-line-2": "Si vous n'avez pas tenté de saisir vos coordonnées, ignorez cet e-mail et contactez l'assistance. Nous vous conseillons également de réinitialiser votre mot de passe.",
+    "subject": "Votre compte est débloqué"
+  },
+  "unsuspended-country": {
+    "subject": "Votre compte a été réactivé.",
+    "html-line-1": "Nous sommes heureux de vous informer que votre compte a été débloqué",
+    "html-line-2": "Si vous avez des questions, n'hésitez pas à nous contacter, nous serons heureux de vous aider.",
+    "html-line-3": "Nous sommes à votre disposition par le biais d'un chat en direct, d'un e-mail ou de notre FAQ.",
+    "unsuspended-country": "Pays réactivé.",
+    "thanks-for-registering": "Merci de vous être inscrit chez nous !",
+    "we-added-your-country": "Nous sommes ravis de vous annoncer que le pays dans lequel vous êtes basé a maintenant été ajouté à la liste des pays à partir desquels nous opérons.",
+    "start-trading-sharing": "Vous êtes maintenant prêt à commencer à trader, partager et apprendre avec le courtier le plus récent.",
+    "start-trading": "Commencez à trader"
+  },
+  "user-approved": {
+    "html-line-2": "Vous pouvez maintenant utiliser tous nos services, profitez-en.",
+    "html-line-3": "Votre utilisateur a été approuvé!",
+    "html-line-4": "Vous pouvez maintenant utiliser tous nos services, profitez-en.",
+    "subject": "Votre utilisateur a été approuvé!!!",
+    "html-line-1": "Votre utilisateur a été approuvé! Vous pouvez maintenant utiliser tous nos services!"
+  },
+  "user-created": {
+    "html-line-7": "Maintenant, vous devez envoyer votre document pour approbation.",
+    "html-line-8": "Votre compte utilisateur sur <b>{{mailer.info.name}}</b> est maintenant actif!",
+    "here-are-some-quick-steps": "Voici quelques étapes rapides pour vous permettre d'échanger immédiatement:",
+    "html-line-9": "<b>1. Effectuez un dépôt</b> - Ajoutez des fonds au portefeuille du compte choisi via Bitcoin",
+    "html-line-10": "<b>2. Créez un compte MetaTrader</b> - via la page Mon compte sur notre site web",
+    "html-line-11": "<b>3. Configurez MetaTrader</b> - Téléchargez, installez et connectez-vous",
+    "html-line-12": "<b>4. Transfert interne</b> - Portefeuille du compte vers le compte MetaTrader",
+    "if-you-would-like-more-deposit-methods": "Si vous souhaitez utiliser d'autres méthodes de dépôt:",
+    "html-line-13": "<b>Complétez votre KYC </b> - Vérifiez votre identité en complétant le processus KYC (User Verification).",
+    "need-help": "Vous avez besoin d'aide?",
+    "navigate-to-faq-section": "Consultez la section FAQ de notre site Web pour obtenir des guides simples, étape par étape.",
+    "all-the-best": "Nous vous souhaitons bonne chance,",
+    "subject": "Votre compte utilisateur sur {{mailer.info.name}} a été activé!",
+    "html-line-1": "Votre compte utilisateur sur {{mailer.info.name}} est maintenant actif!",
+    "html-line-2": "1. Effectuez un dépôt - Ajoutez des fonds au portefeuille du compte choisi via Bitcoin.",
+    "html-line-3": "2. Créez un compte MetaTrader - via la page Mon compte sur notre site web",
+    "html-line-4": "3. Configurez MetaTrader - Téléchargez, installez et connectez-vous",
+    "html-line-5": "4. Transfert interne - Portefeuille du compte vers le compte MetaTrader",
+    "html-line-6": "Complétez votre KYC - Vérifiez votre identité en complétant le processus KYC (User Verification).",
+    "ready-to-start": "Vous êtes prêt à commencer à {{mailer.info.name}}!",
+    "welcome-to-future-of-trading": "Bienvenue dans l'avenir du trading. Merci de vous être inscrit chez nous!",
+    "ready-to-start-trading": "Vous êtes maintenant prêt à commencer à trader, partager et apprendre avec le courtier le plus récent.",
+    "start-trading": "Commencez à trader"
+  },
+  "user-request": {
+    "you-have-signed-up-to": "Vous vous êtes inscrit sur {{mailer.info.website}}, veuillez terminer le processus en cliquant sur ce lien",
+    "you-are-almost-done": "Vous avez presque terminé, pour accéder à votre tableau de bord, veuillez compléter votre profil en cliquant sur le lien et en remplissant vos coordonnées.",
+    "html-line-1": "Inscription complète:",
+    "welcome-to-brand": "Vous êtes sur la voie de l'avenir du commerce. Vous avez maintenant demandé à {{mailer.info.name}} de créer un compte pour vous",
+    "complete-sign-up": "Inscription complète",
+    "thank-you-for-signup": "Merci de vous être inscrit à {{mailer.info.name}}",
+    "complete-signup": "Inscription complète: {{mailer.info.website}}/signup/verify?code={{code}}"
+  },
+  "withdraw-approved": {
+    "html-line-2": "Veuillez vous connecter pour consulter le solde de votre portefeuille {{mailer.info.name}}.",
+    "html-line-1": "Votre retrait de {{withdraw.amount}} a été approuvé.",
+    "withdrawal-approved": "Retrait approuvé",
+    "your-withdrawal-has-been": "Votre retrait a été effectué",
+    "successful": "avec succès",
+    "community-share": "Pourquoi ne pas partager vos meilleurs conseils avec la communauté {{mailer.info.name}}? Cliquez ici pour commencer à poster?",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "withdraw-created-user": {
+    "html-line-2": "Si ce montant est incorrect, veuillez nous contacter immédiatement. {{mailer.info.support}}",
+    "html-line-1": "Vous avez demandé un retrait de {{withdraw.amount}}. Si ce montant est incorrect, veuillez nous contacter immédiatement. {{mailer.info.support}}",
+    "subject": "Vous avez demandé un retrait de {{withdraw.amount}}.",
+    "withdraw-started": "Retrait commencé",
+    "your-withdrawal-is-now": "Votre retrait est maintenant",
+    "pending-approval": "en attente d'approbation.",
+    "will-send-an-email": "Nous vous enverrons un e-mail une fois que le statut de ce retrait aura été mis à jour.",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "withdraw-created": {
+    "subject": "Il y a un nouveau Retrait qui requiert votre attention",
+    "html-line-3": "Salut l'équipe!",
+    "html-line-4": "{{user.fullName}} a demandé un retrait",
+    "subject-2": "De : {{user.fullName}}",
+    "html-line-1": "Il y a un nouveau retrait à approuver.",
+    "html-line-2": "De l'utilisateur {{user.fullName}}"
+  },
+  "withdraw-pending-internal-review": {
+    "html-line-1": "Votre demande de retrait a été reçue",
+    "html-line-2": "Notre équipe chargée des paiements examine rapidement toutes les demandes reçues et s'efforce de les traiter dans les 24 heures",
+    "html-line-3": "Si des informations supplémentaires sont nécessaires, nous vous contacterons",
+    "html-line-4": "Vous serez également informé dès que le traitement de votre demande sera terminé",
+    "subject": "Concernant votre retrait de {{mailer.info.name}}"
+  },
+  "withdraw-pending-transfer": {
+    "html-line-1": "Votre demande de retrait est en cours.",
+    "html-line-2": "Notre équipe travaille avec diligence pour examiner la demande et la traiter dans les prochaines 24 heures. Nous vous contacterons dès que votre demande aura été traitée avec succès.",
+    "subject": "Votre retrait est en cours d'examen"
+  },
+  "withdraw-rejected": {
+    "html-line-1": "Votre retrait de {{withdraw.amount}} a été rejeté à cause de {{withdraw.comment}}",
+    "subject": "Votre retrait de {{withdraw.amount}} a été rejeté",
+    "withdrawal-rejected": "Retrait Rejeté",
+    "unfortunately-your-withdrawal-has-been": "Malheureusement, votre retrait",
+    "rejected": "a été rejeté",
+    "get-in-touch": "Veuillez nous contacter à {{mailer.info.support}} ou par chat afin que nous puissions vous donner plus d'informations.",
+    "amount": "Montant",
+    "see-your-transactions": "Voir vos transactions"
+  },
+  "withdraw-selfie-requested": {
+    "html-line-1": "La demande d'un selfie pour traiter votre demande de retrait est un protocole de sécurité visant à protéger les fonds de nos clients.",
+    "html-line-2": "Veuillez trouver les instructions ci-dessous pour fournir à notre équipe de paiement le selfie requis afin de traiter votre demande.",
+    "html-line-3": "Pour prendre un selfie, vous devez:",
+    "html-line-4": "Un morceau de papier et un stylo.",
+    "html-line-5": "Une pièce d'identité valide.",
+    "html-line-6": "Un appareil avec une caméra activée.",
+    "html-line-7": "Votre selfie doit inclure:",
+    "html-line-8": "Un papier avec la date et le montant de votre retrait ainsi que votre signature.",
+    "html-line-9": "Votre pièce d'identité valide.",
+    "html-line-10": "Assurez-vous que vous tenez votre pièce d'identité et le papier.",
+    "html-line-11": "Assurez-vous que votre main ou vos doigts ne recouvrent pas les informations figurant sur la pièce d'identité ou le papier.",
+    "html-line-12": "Une fois que nous aurons reçu votre selfie, nous vous contacterons dans les 24 heures si nous avons besoin d'autres informations.",
+    "html-line-13": "Sinon, vous serez informé lorsque votre retrait aura été traité avec succès.",
+    "subject": "Concernant votre retrait de {{mailer.info.name}} - Action requise"
+  },
+  "affiliate-invite": {
+    "affiliate-invite": "Invitation d'affiliation",
+    "introduce-others": "Vous pouvez maintenant présenter à d'autres traders comme vous l'avenir du trading et gagner de l'argent supplémentaire dans le processus !",
+    "become-affiliate": "Vous pouvez devenir affilié avec {{mailer.info.name}} en cliquant sur ce lien.",
+    "need-more-info": "Besoin de plus d'informations ? Contactez-nous au",
+    "talk-to-us": "ou parlez-nous via le chat afin que nous puissions vous donner plus d'informations.",
+    "start-sharing": "Commencez à partager l'avenir avec le courtier le plus frais du moment !",
+    "invite-friends": "Invite tes amis"
+  },
+  "chaser-not-enabled-2fa-yet-1": {
+    "time-to-start-trading": "Merci de vous être inscrit! Il est temps de commencer le trading{{user.firstName}} !",
+    "thank-you-for-joining": "Merci d'avoir rejoint {{mailer.info.name}}, la prochaine étape consiste à compléter votre profil et à ajouter une couche de sécurité supplémentaire à votre compte",
+    "secure-trading-platform": "Nous sommes fiers de présenter à nos utilisateurs une plateforme de trading sécurisée et efficace, c'est pourquoi nous vous encourageons à terminer la configuration de votre compte afin que vous puissiez commencer à profiter de notre expérience de trading. Cela ne prend que quelques minutes",
+    "enable-your-2fa": "Activez votre 2FA"
+  },
+  "chaser-not-enabled-2fa-yet-2": {
+    "complete-your-profile": "{{user.firstName}}, complétez votre profil pour commencer à trader",
+    "welcome-to-brand": "Nous vous souhaitons la bienvenue dans l'expérience {{mailer.info.name}}.",
+    "verify-your-account-enable-2fa": "{{mailer.info.name}} est synonyme de sécurité et de fiabilité. En très peu d'étapes, vous pouvez vérifier votre compte et activer la fonction 2FA pour commencer à trader en toute sécurité.",
+    "security-top-priority": "\nLa sécurité de votre compte est notre priorité absolue, c'est pourquoi nous souhaitons que vous activiez l'authentification à deux facteurs (2FA) ",
+    "enable-your-2fa": "Activez votre 2FA",
+    "guarantee-full-security": "De cette façon, vous pouvez garantir une sécurité totale pendant votre voyage commercial avec nous. Activez 2FA aujourd'hui et rejoignez des millions de commerçants sur les marchés"
+  },
+  "chaser-not-enabled-2fa-yet-3": {
+    "unlock-brand-security-feature": "Débloquez {{mailer.info.name}} fonctionnalité de sécurité ultime",
+    "setup-2fa-and-verify": "Il a été porté à notre attention que vous n'avez pas encore activé l'authentification à deux facteurs (2-FA) sur votre compte. Il est important que vous terminiez cette étape afin de vérifier votre compte et de commencer à trader",
+    "enable-your-2fa": "Activez votre 2FA",
+    "enjoy-full-experience": "Non seulement vous débloquerez nos fonctionnalités de trading, mais vous ajouterez également une sécurité totale à votre compte. Protégez vos fonds et vos transactions à tout moment pour profiter pleinement de l'expérience {{mailer.info.name}}."
+  },
+  "chaser-not-enabled-2fa-yet-4": {
+    "unlock-brand-security-feature": "Débloquez {{mailer.info.name}} fonctionnalité de sécurité ultime",
+    "2fa-feature-description": "Notre fonctionnalité d'authentification à deux facteurs (2-FA) est conçue pour fournir le niveau de sécurité maximal à votre compte.",
+    "unlock-features": "Cela ne prend que quelques minutes et déverrouille l'ensemble complet des fonctionnalités dont vous pouvez profiter sur {{mailer.info.name}}, nous gardons tout le processus simple et fiable.",
+    "enable-your-2fa": "Activez votre 2FA"
+  },
+  "trade-order-deleted-expired": {
+    "order-was-expired": "Un ordre tradez a expiré",
+    "order-was-cancelled-automatically": "Un ordre commercial a été annulé automatiquement en raison de l'heure d'expiration fixée par l'utilisateur lorsqu'il l'a placé, voir les détails ci-dessous",
+    "order-id": "Order ID",
+    "instrument": "Instrument",
+    "see-your-open-orders": "Voir vos ordres ouverts",
+    "if-it-wasnt-you": "Si ce n'est pas vous, veuillez",
+    "contact-our-support-team": "contacter notre équipe d'assistance"
+  },
+  "trade-position-created-filled": {
+    "order-was-filled": "Une nouvelle trade order a été remplie",
+    "order-was-processed": "Un nouvel ordre commercial a été traité sur votre compte {{mailer.info.name}}, voir les détails ci-dessous",
+    "order-id": "Order ID",
+    "instrument": "Instrument",
+    "open-price": "Prix d'ouverture",
+    "position-id": "Position ID",
+    "see-your-open-trades": "Voir vos opérations ouvertes",
+    "if-it-wasnt-you": "Si ce n'est pas vous, veuillez",
+    "contact-our-support-team": "contacter notre équipe d'assistance"
+  },
+  "trade-position-deleted-sl": {
+    "order-was-closed": "Un ordre Stop Loss a été fermé",
+    "position-is-closed": "Une position est entièrement fermée en raison de l'atteinte du prix SL, voir les détails ci-dessous",
+    "position-id": "ID de la position",
+    "instrument": "Instrument",
+    "sl-price": "Prix SL",
+    "profit-loss-value": "Valeur de profit/perte",
+    "see-your-trades-history": "Voir l'historique de vos transactions",
+    "if-it-wasnt-you": "Si ce n'est pas vous, veuillez",
+    "contact-our-support-team": "contacter notre équipe d'assistance"
+  },
+  "trade-position-deleted-stopout": {
+    "order-closed": "Un ordre a été fermé en raison d'un appel de marge",
+    "position-closed": "Une position est entièrement fermée en raison d'un appel de marge, voir les détails ci-dessous",
+    "position-id": "ID de la position",
+    "instrument": "Instrument",
+    "see-your-trades-history": "Voir l'historique de vos transactions",
+    "if-it-wasnt-you": "Si ce n'est pas vous, veuillez",
+    "contact-our-support-team": "contacter notre équipe d'assistance"
+  },
+  "trade-position-deleted-tp": {
+    "take-profit-closed": "Un ordre de prise de bénéfices a été fermé",
+    "position-fully-closed": "Une position est entièrement fermée en raison de l'atteinte du prix TP, voir les détails ci-dessous",
+    "position-id": "ID de la position",
+    "instrument": "Instrument",
+    "tp-price": "Prix TP",
+    "profit-loss-value": "Valeur de profit/perte",
+    "see-your-trades-history": "Voir l'historique de vos transactions",
+    "if-it-wasnt-you": "Si ce n'est pas vous, veuillez",
+    "contact-our-support-team": "contacter notre équipe d'assistance"
+  }
+}

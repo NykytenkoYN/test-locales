@@ -1,0 +1,1003 @@
+{
+  "common": {
+    "you-can-update-your-subscription": "You can update your subscriptions by,",
+    "clicking-here": "Clicking here",
+    "footer-information-all-communication-are-coming-from": "Please note that all communication coming from {{mailer.info.name}} is done through our official email addresses @{{mailer.domain}} only.",
+    "our-mailing-address-is": "Our mailing address is:",
+    "please-login-to-review-account": "Please login to review your accounts",
+    "hi-username": "Hi {{user.firstName}}",
+    "login": "Login",
+    "you-have-successfully-registered-for-mt-live-account": "You have successfully registered for your MetaTrader live account. Your MetaTrader login details are as follows:",
+    "your-metatrader-login-details": "Your MetaTrader login details are as follows:",
+    "download-metatrader": "Download MetaTrader:",
+    "new-metatrader-account-created": "New MetaTrader Account created!",
+    "thanks": "Thanks",
+    "website-team": "The {{mailer.info.website}} Team.",
+    "download": "Download",
+    "best-regards": "Best Regards",
+    "mailer-support-team": "The {{mailer.info.name}} Support Team.",
+    "hello-username": "Hello {{user.firstName}}",
+    "kind-regards": "Kind Regards",
+    "mailer-affiliate-team": "The {{mailer.info.name}} Affiliate Team.",
+    "hey-username": "Hey {{user.firstName}}",
+    "reach-out-to-our-support": "If you have any questions, please reach out to our 24/7 Support Team via live chat or email.",
+    "reach-out-support-24-7": "If you have any questions, please reach out to our 24/7 Support Team via live chat, email or you may wish to request a call back from our site. ",
+    "thank-you-for-signing-up": "Thank you for signing up to {{mailer.info.name}}",
+    "create-an-account": "Create an Account",
+    "click-the-link-below": "Click the link below and start your trading journey now.",
+    "start-trading": "Start Trading",
+    "click-the-button-below": "Click the button below and start your trading journey now.",
+    "transfer-funds": "Transfer Funds",
+    "transfer-my-funds": "Transfer My Funds",
+    "verify-my-account": "Verify My Account",
+    "account-number": "Account No: {{account.mt4AccountId}}",
+    "trading-password": "Trading Password: {{account.masterPassword}}",
+    "investor-password": "Investor Password: {{account.investorPassword}} (Read Only)",
+    "server-name": "Server Name: {{account.publicServerName}}",
+    "trader-password": "Trader Password: {{account.masterPassword}}",
+    "reset-password": "Reset Password",
+    "regards": "Regards",
+    "dear-username": "Dear {{user.firstName}}",
+    "team": "{{mailer.info.fullName}} Team.",
+    "complete-my-deposit": "Complete My Deposit",
+    "team-2": "{{mailer.info.name}} team",
+    "we-hope-this-email-finds-you-well": "We hope this email finds you well.",
+    "complete-2fa-disable-request": "Complete 2FA Disable Request",
+    "welcome-username": "Welcome, {{user.firstName}}",
+    "complete-signup": "Complete Signup",
+    "click-link-below": "If the button above does not work click on the link below:",
+    "dont-wait-any-longer-and-take-a-step-closer-to-your-objectives-today": "Don't wait any longer and take a step closer to your objectives today.",
+    "ignore-email": "Please ignore this email if you didn't make this request."
+  },
+  "account-change": {
+    "action-on-account-information": "Your account {{account.id}} has {{account.action}}",
+    "login-to-review": "to review your accounts login in here: {{mailer.info.website}}/login",
+    "our-mailing-address-is": "Our mailing address is:"
+  },
+  "account-created": {
+    "html-email-line-1": "You have successfully registered for your MetaTrader live account with {{mailer.info.fullName}} and you are now only moments away from experiencing the exciting world of online FX.",
+    "html-email-line-2": "Kindly note in order to start trading, you need to transfer funds from your {{mailer.info.fullName}} wallet into this MetaTrader account simply by making an internal transfer from wallet to MetaTrader.",
+    "server-name": "Server Name: {{account.publicServerName}}",
+    "account-number": "Account No: {{account.mt4AccountId}}",
+    "trader-password": "Trader Password: {{account.masterPassword}}",
+    "investor-password": "Investor Password: {{account.investorPassword}} (Read Only)",
+    "you-have-a-new-mt-account": "You have a new MetaTrader Account."
+  },
+  "account-follower-created": {
+    "your-metatrader-account-details": "Your MetaTrader account details are as follows:",
+    "you-can-now-login-deposit-transfer-money": "You can now login, deposit/transfer money to this account and join a leader or PAMM account.",
+    "account-number": "Account No: {{account.mt4AccountId}}",
+    "you-have-a-new-metatrader-follower-account": "You have a new MetaTrader Follower Account."
+  },
+  "account-history-export": {
+    "we-have-received-your-request-to-export-your-trade-history": "We have received your request to export your trade history for the following account and date -",
+    "account-number": "Account No: {{account.mt4AccountId}}",
+    "date-range": "Date Range: {{fromFormatted}} - {{toFormatted}}",
+    "your-report-can-be-downloaded-from-the-following-link": "Your report can be downloaded from the following link:",
+    "link-expiration-message": "Please note that the above link will expire after {{expiresInDays}} days, therefore kindly download the report to avoid needing to request your report again.",
+    "trade-history-export-request-for-account": "{{mailer.info.name}} Trade History Export Request for Account {{account.mt4AccountId}} and Date Range {{fromFormatted}} - {{toFormatted}}",
+    "preheader-content": "{{mailer.info.name}} Trade History Export Request for Account {{account.mt4AccountId}} and Date Range {{fromFormatted}} - {{toFormatted}}",
+    "brand-account-history-export": "{{mailer.info.name}} Trade History Export",
+    "received-your-request": "We have received your request to export your trade history for the following account and date",
+    "account-id": "Account ID",
+    "date-range-title": "Date Range",
+    "download-report-link": "Your report can be downloaded from the following link",
+    "download-link-will-expire": "Please note that the above link will expire after {{expiresInDays}} days, therefore kindly download the report to avoid needing to request your report again."
+  },
+  "account-password-changed": {
+    "received-a-password-reset-request": "We have received a password reset request, if you did not request it yourself please let us know immediately.",
+    "we-received-a-request-to-reset-the-password": "We have received a request to reset the password for the below MetaTrader account.",
+    "if-you-did-not-ask-reach-our-support": "If you did not request the password change yourself, please let us know immediately by reaching out to our 24/7 Support Team via live chat or email.",
+    "your-metatrader-login-details-are-as-follows": "Your new MetaTrader login details are as follows:",
+    "account-number": "Account No: {{account.id}}",
+    "new-password": "New Password: ",
+    "please-login-to-review": "Please login to review your accounts",
+    "your-account-has-changed-its-password": "Your account {{account.id}} has changed its password",
+    "login-to-review": "to review your accounts login in here: {{mailer.info.website}}/login"
+  },
+  "affiliate-engagement-1": {
+    "email-line-1": "Congratulations on joining our exclusive {{mailer.info.name}} Affiliate Program!",
+    "email-line-2": "We want to assist you in generating a profit with us as quickly as possible, therefore the benefits below have been created with this in mind for you, the Affiliate.",
+    "email-line-3": "The {{mailer.info.name}} Affiliate Program offers several benefits for you and your traders, including an affiliate manager, tools to help you grow and advantageous commissions.",
+    "email-line-4": "All you need to do is now log in to your {{mailer.info.name}} Trading account and share your tracking link.",
+    "email-line-5": "You can find your Affiliate tracking link under the 'Referrals' or 'Refer a Friend' tab once logged in.",
+    "email-line-6": "Do you have any questions or need any help toward earning your first paid commission? You may respond to this email and your dedicated Affiliate Manager will be in touch as soon as possible.",
+    "email-line-7": "We are always happy to receive feedback from you regarding our Affiliate Program and/or services as it allows us to improve your experience further.",
+    "email-line-8": "We are very happy to welcome you onboard as a valued partner and look forward to working closely with you.",
+    "get-started-with-affiliate-program": "{{user.firstName}}, get started with {{mailer.info.name}} Affiliate Program!"
+  },
+  "affiliate-engagement-2": {
+    "email-line-1": "Now that you are a part of our exclusive Affiliate Program, we want to make it as easy as possible to share our stellar service with your traders and help you grow as an Affiliate of {{mailer.info.name}}.",
+    "email-line-2": "We can offer you high-quality, branded banners which have helped greatly with conversion rates for our existing Affiliates. You can ask for these marketing materials by contacting us via email here: {{affiliatesEmail}}.",
+    "email-line-3": "Make sure you share them across your blogs/websites/social media channels to help generate more referrals.",
+    "email-line-4": "Good luck and remember to be creative - the sky's the limit!",
+    "generate-more-referrals": "{{user.firstName}}, generate more referrals"
+  },
+  "affiliate-engagement-3": {
+    "email-line-1": "We'd like to know more about YOU!",
+    "email-line-2": "Getting to know our Affiliates is crucial to helping you become a successful Affiliate for {{mailer.info.name}}. As such, we tailor our services toward what you and your network need most to ensure you have the best opportunity to earn a passive income.",
+    "email-line-3": "We welcome Affiliates with any level of expertise. To allow us to better understand your needs, as well as help you grow and develop further, could you tell us how you built your network, or plan to do so?",
+    "email-line-4": "What marketing strategies have you in place, or can we be of any assistance to you in this area?",
+    "email-line-5": "We want to make sure you have all the necessary tools and guidance at your disposal to help you earn at an optimum level with our Affiliate Program.",
+    "email-line-6": "On this note, we would love to set up a call with you. This is a good opportunity for us to personally introduce ourselves and see how we might be able to assist you on your journey as an Affiliate with {{mailer.info.name}}.",
+    "email-line-7": "Don't delay! Reply to this email with a suitable date and time for a call and your dedicated Affiliate Manager will be in touch.",
+    "email-line-8": "We look forward to speaking with you soon.",
+    "talk-to-us": "Talk to us, {{user.firstName}}"
+  },
+  "affiliate-export": {
+    "your-report-can-be-downloaded-from-link": "Your report can be downloaded from the following link:",
+    "information-about-expiration-time": "Please note that the above link will expire after {{expiresInDays}} days, therefore kindly download the report to avoid needing to request your report again.",
+    "subject": "{{mailer.info.name}} Affiliate Export",
+    "affiliate-export": "Affiliate Export",
+    "download-report-link": "Your report can be downloaded from the following link",
+    "download-link-will-expire": "Please note that the above link will expire after {{expiresInDays}} days, therefore kindly download the report to avoid needing to request your report again.",
+    "brand-affiliate-export": "{{mailer.info.name}} Affiliate Export"
+  },
+  "alert-high-deposit": {
+    "an-approved-deposit-has-been-made-by": "An approved {{deposit.approved}} deposit has been made by {{depositOwner.firstName}} {{depositOwner.surname}} - {{depositOwner.email}}.",
+    "alert-high-amount-deposit": "Alert - High Amount Deposit!"
+  },
+  "alert-high-wallet-to-mt4": {
+    "a-transfer-from-wallet-to-mt-account-has-been-made": "A {{transfer.amount}} transfer from {{transfer.wallet}} wallet to {{transfer.toAccount}} MetaTrader account has been made by {{transferOwner.firstName}} {{transferOwner.surname}} - {{transferOwner.email}}.",
+    "alert-high-amount-wallet-to-mt-transfer": "Alert - High Amount Wallet to MetaTrader Transfer!"
+  },
+  "chaser-no-deposits-yet-1": {
+    "thank-you-for-signing-up": "thank you for signing up to {{mailer.info.name}}!",
+    "you-are-almost-ready-to-start-trading": "You are almost ready to start trading. Your quick and easy next steps are to deposit a minimum of $10 Dollars into your trading account wallet.",
+    "once-this-is-done-you-need-to-create-a-live-account": "Once this is done you need to create a live account.",
+    "deposit-funds": "Deposit Funds",
+    "deposit-now-to-start-trading": "Deposit now to start Trading!",
+    "make-best-out-of-btc": "Make the Best Out of your BTC {{user.firstName}}!",
+    "successfully-verified": "You have successfully verified and secured your account. This means you are ready to make your first BTC deposit and get started.",
+    "deposit-btc": "Deposit BTC",
+    "deposit-bitcoin-instructions": "{{mailer.info.name}} BTC deposits are processed in minutes and with full security. To make your first Bitcoin deposit start by logging in to your account and proceed to deposit funds to your wallet, deposit a minimum of $10, and then copy the address or scan the QR Code generated just for you.",
+    "blockchain-instructions": "A simple process fully backed by the Blockchain Network. Which means that privacy and security are guaranteed. Once you get the deposit confirmation, you can start trading with your updated balance.",
+    "ready-to-start-trading": "Ready to start trading?"
+  },
+  "chaser-no-deposits-yet-2": {
+    "to-start-using-your-account-you-need-to-have-your-first-deposit-approved": "To start using your {{mailer.info.name}} Account, you will need to have your first deposit approved.",
+    "click-the-link-below-to-deposit-your-funds": "Click the link below to deposit your funds.",
+    "deposit-here": "Deposit Here",
+    "have-you-deposited-funds-yet": "Have you Deposited Funds Yet?",
+    "get-started": "One Simple Step to Get Started {{user.firstName}}!",
+    "thanks-for-verification": "Thank you for verifying your account and enabling 2FA for extra security. Now the time has come for you to start trading at {{mailer.info.name}}, now you just need to deposit BTC for the first time.",
+    "deposit-btc": "Deposit BTC",
+    "deposit-bitcoin-instructions": "{{mailer.info.name}} BTC deposits are processed in minutes and with full security. To make your first Bitcoin deposit start by logging in to your account and proceed to deposit funds to your wallet, deposit a minimum of $10, and then copy the address or scan the QR Code generated just for you.",
+    "blockchain-instructions": "A simple process fully backed by the Blockchain Network. Which means that privacy and security are guaranteed. Once you get the deposit confirmation, you can start trading with your updated balance.",
+    "deposit-funds": "Deposit Funds"
+  },
+  "chaser-no-deposits-yet-3": {
+    "we-want-you-to-enjoy-trading": "We want you to enjoy trading with {{mailer.info.name}}, but to make a start you will need to deposit funds into your Account, there are multiple ways to do this but you may wish to start with Bitcoin as a quick and easy method.",
+    "click-on-the-link-below-to-take-you-to-your-deposits-page": "Click on the link below to take you to your deposit page.",
+    "deposit-funds-here": "Deposit Funds Here",
+    "time-is-running-out": "Time is running out. Deposit Now!",
+    "trading-opportunities": " Don't Skip on Trading Opportunities {{user.firstName}}!",
+    "first-deposit": "We have noticed you are yet to make your first BTC deposit at {{mailer.info.name}}, remember that you first need funds added to your account before trading the markets.",
+    "deposit-btc": "Deposit BTC",
+    "volatility-instructions": "The markets are experiencing high levels of volatility these days and that means profitable opportunities for traders. Log in to your account, click on deposit funds, deposit a minimum of $10 to your trading account and then copy the address or scan the QR Code that was generated.",
+    "transaction-time-instructions": "Is that simple, transactions are processed in seconds, so after getting your deposit confirmation, your balance will be updated and you'll unlock the {{mailer.info.name}} experience.",
+    "click-link-below": "Click on the link below to take you to your deposit page.",
+    "deposit-funds": "Deposit Funds"
+  },
+  "chaser-no-deposits-yet-4": {
+    "we-dont-want-to-bug-you-further": "we don't want to bug you further.",
+    "if-you-are-still-interested": "If you are still interested in trading with {{mailer.info.name}}, please click the link below to deposit funds into your Account and enjoy all the benefits of trading with us. Don't miss that trading opportunity that is only minutes away!",
+    "deposit-here": "Deposit Here",
+    "last-chance": "Last chance to Deposit your Funds with {{mailer.info.name}}",
+    "dont-miss-out": "Don't Miss Out on Big Opportunities {{user.firstName}}!",
+    "first-deposit": "Before you can start trading the markets at {{mailer.info.name}} you first need to your first BTC deposit to your account, all it takes it's a minimum of $10.",
+    "deposit-btc": "Deposit BTC",
+    "crypto-market-instructions": "With the cryptocurrency market on the spotlight these days, big opportunities may lie ahead. All you need to do is log in to your account, click on deposit funds, and then copy the address or scan the QR Code that was generated for you.",
+    "unlock-full-access-instructions": "As straightforward as possible, once you've got your deposit confirmation, your balance will be updated and you'll unlock full access to all of our unique trading features.",
+    "deposit-funds": "Deposit Funds"
+  },
+  "chaser-no-deposits-yet-recurring": {
+    "its-been-a-while": "it's been a while since we were last in contact.",
+    "html-line-1": "If you are still interested in trading with {{mailer.info.name}}, please click the link below to deposit funds into your Account and enjoy all the benefits of trading with us. Don't miss that trading opportunity that is only minutes away!",
+    "deposit-here": "Deposit Here",
+    "subject": "Last chance to Deposit your Funds with {{mailer.info.name}}!",
+    "dont-miss-out": "Don't Miss Out on Big Opportunities {{user.firstName}}!",
+    "first-deposit": "Before you can start trading the markets at {{mailer.info.name}} you first need to your first BTC deposit to your account, all it takes it's a minimum of $10.",
+    "deposit-btc": "Deposit BTC",
+    "crypto-market-instructions": "With the cryptocurrency market on the spotlight these days, big opportunities may lie ahead. All you need to do is log in to your account, click on deposit funds, and then copy the address or scan the QR Code that was generated for you.",
+    "unlock-full-access-instructions": "As straightforward as possible, once you've got your deposit confirmation, your balance will be updated and you'll unlock full access to all of our unique trading features.",
+    "deposit-funds": "Deposit Funds"
+  },
+  "chaser-no-live-accounts-yet-1": {
+    "html-line-1": "You are almost ready to start trading. You have made a deposit which is now approved and ready to be part of your first trading adventure.",
+    "html-line-2": "Your next step is to create a live MetaTrader account from the 'My Accounts' tab in your Account.",
+    "open-an-account": "Open An Account",
+    "subject": "Create your Live Trading Account today!"
+  },
+  "chaser-no-live-accounts-yet-2": {
+    "you-have-now-signed-up": "you have now signed up and deposited. The last step before you can trade is to create your MetaTrader account from the “My Accounts” tab in your {{mailer.info.name}} Account.",
+    "html-line-1": "Creating a live account will take seconds. All you need to do then is to transfer your deposit from your wallet to this new live account to open your first trade.",
+    "subject": "Create your MetaTrader account and start trading today!"
+  },
+  "chaser-no-live-accounts-yet-3": {
+    "your-deposit-has-been-approved": "your deposit has been approved for some days now and you need to create a live MetaTrader account before you can start trading from the “My Accounts” tab in your Account.",
+    "html-line-1": "Click on the link below and start your trading journey. ",
+    "subject": "You are running out of time to create your MetaTrader account!"
+  },
+  "chaser-no-live-accounts-yet-4": {
+    "this-is-our-final": "this is our final reach out to remind you to create your live MetaTrader account to be able to start trading those funds that you deposited.",
+    "html-line-1": "There is always a trading opportunity around the corner that we would like you to take advantage of!",
+    "html-line-2": "Creating a live account will take seconds. All you need to do then is to transfer your deposit from your wallet to this new live account to open your first trade.",
+    "subject": "Forgotten Your Deposit? Start Trading with {{mailer.info.name}}!"
+  },
+  "chaser-no-live-accounts-yet-recurring": {
+    "its-been-a-while": "it's been a while since we were in contact regarding your account to help you get started with your trading journey.",
+    "email-line-1": "We wanted to remind you to create your live MetaTrader account to be able to start trading those funds that you deposited.",
+    "email-line-2": "There is always a trading opportunity around the corner that we would like you to take advantage of!",
+    "email-line-3": "Creating a live account will take seconds. All you need to do then is to transfer your deposit from your wallet to this new live account to open your first trade.",
+    "email-line-4": "If you have any questions, please reach out to our 24/7 Support Team via live chat, email or you may wish to request a call back from our site. ",
+    "forgotten-your-deposit": "Forgotten Your Deposit? Start Trading with {{mailer.info.name}}!"
+  },
+  "chaser-no-trades-yet-1": {
+    "you-funds-are-now-live": "Your funds are now live in your MetaTrader account, but your haven't opened your first trade.",
+    "have-your-opened-your-first-trade": "Have you opened your first trade with {{mailer.info.name}}?",
+    "now-that-you-have-verified-your-account": "Now that you have verified your account and deposited funds to your wallet, it's time to make your first trade.",
+    "offers-over-a-hundred-tradable-assets": "{{mailer.info.name}} offers over a hundred tradable assets with all the unique features that you require to manage your risks effectively.",
+    "open-your-first-trader": "Open your first trade: {{mailer.info.website}}/portfolio",
+    "if-the-button-does-not-work": "If the button above does not work click on the link below:",
+    "create-watchlists-to-keep-track-of-your-investments": "Create Watchlists to keep track of your investments at all times, access your unique portfolio and trading history, and reduce risks by setting up a Stop-Loss order to protect your trades while you sleep.",
+    "access-the-ultimate-trading-features-with": "Access the ultimate trading features with {{mailer.info.name}}. If you need any help our Customer Support team is available 24/7 to help you with any doubt you may have. ",
+    "time-to-make-your-first-trade": "Time to Make your First Trade {{user.firstName}}!"
+  },
+  "chaser-no-trades-yet-2": {
+    "dont-forget-to-open-your-first-trade-today": "don't forget to open your first trade today!",
+    "your-funds-are-in-your-live-mt-account": "Your funds are in your live MetaTrader account so why not make your first trade with {{mailer.info.name}}.  Click the link below and start your trading journey now!",
+    "your-funds-and-account-now-live": "Your Funds and Account Now Live on {{mailer.info.name}}!",
+    "once-again-we-thank-you-for-opening-an-account": "Once again, we thank you for opening an account at {{mailer.info.name}} and verifying your profile. Now, the time has come for you to start trading with a 0% Commission.",
+    "open-my-first-trade": "Open My First Trade",
+    "if-the-link-does-not-work": "If the button above does not work click on the link below:",
+    "at-name-you-can-access-all-the-unique-features-that-you-need": "At {{mailer.info.name}}, you can access all the unique features that you need to become a successful trader. With our integrated Stop-Loss Feature, you can start trading over a hundred assets calmly by keeping risks to a minimum. Also, create your own Watchlists so you can always stay on top of your investments, access your unique portfolio, trading history and more.",
+    "if-you-need-any-help-during-the-process": "If you need any help during the process of opening your first trade, our Customer Support Team is available for you 24/7. ",
+    "big-opportunities-ahead": "Big Opportunities Ahead {{user.firstName}}!",
+    "open-your-first-trade": "Open your first trade:"
+  },
+  "chaser-no-trades-yet-3": {
+    "with-live-funds-in-your-mt-account": "With live funds in your MetaTrader account there is nothing stopping you from opening your first trade with {{mailer.info.name}}.",
+    "click-the-link-below": "Click the link below and start your trading journey now by downloading the MetaTrader platform and logging into the live account you created. Remember, the login details can be found in your email inbox.",
+    "you-can-start-trading-now": "You can start trading NOW!",
+    "the-time-has-come-for-you-to-open-your-first-trader": "The time has come for you to open your first trade at {{mailer.info.name}}, given the volatile outlook of the markets lately, entry opportunities shouldn't be ignored.",
+    "open-your-first-trade": "Open your first trade: ",
+    "trade-over-a-hundred-of-assets-with-zero-percent-commission": "Trade over a hundred of assets with 0% Commission and access the unique trading tools you need to become the best trader you can be. Access your unique portfolio and trading history, reduce risks using our Stop-Loss Feature and build your unique Watchlist to effectively keep track of your investments.",
+    "if-need-further-assistance": "If you need further assistance, our Customer Support Team will be there to help you 24/7.",
+    "dont-wait-any-longer-and-take-a-step": "Don't wait any longer and take a step closer to your objectives today.",
+    "market-volatility-means-profit-potential": "Market Volatility Means Profit Potential {{user.firstName}}!"
+  },
+  "chaser-no-trades-yet-4": {
+    "as-your-funds-are-ready-to-go": "As your funds are ready to go in your live MetaTrader account, you are ready to go ahead and open your first trade. Remember, only in taking the first step is the potential reward made into an opportunity!",
+    "you-first-trade-is-one-step-away": "Your First Trade is One Step Away with {{mailer.info.name}}",
+    "all-the-features-you-need-to-make-profit": "All the Features you Need to Make Profit {{user.firstName}}!",
+    "are-you-ready-to-trade-over-a-hundred-assets": "Are you ready to trade over a hundred assets at {{mailer.info.name}}?",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "The markets are going through volatile times, and with our unique features, you can make the best of any opportunity that is presented to you. With our Stop-Loss Feature, you can start trading with risks kept to a minimum.",
+    "open-you-first-trade": "Open your first trade: ",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "If that wasn't enough, access your unique portfolio, trading history and build your own Watchlists to always keep track of your investments. We provide a platform that allows you to trade with 0% Commission in the simplest and most efficient way technology can offer. Start today!",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": "If you need any help at the time of placing your first trade, don't hesitate to contact our Customer Support Team, available 24/7."
+  },
+  "chaser-no-trades-yet-recurring": {
+    "quite-some-time-has-passed": "quite some time has passed and we wanted to get in touch regarding your account and the opportunity that awaits!",
+    "as-your-funds-are-ready": "As your funds are ready to go in your live MetaTrader account, you are ready to go ahead and open your first trade. Remember, only in taking the first step is the potential reward made into an opportunity!",
+    "your-first-trade-is-one-step-away": "Your First Trade is One Step Away with {{mailer.info.name}}",
+    "all-the-features-you-need-to-make-profit": "All the Features you Need to Make Profit {{user.firstName}}!",
+    "are-you-ready-to-trade-over-a-hundred-assets": "Are you ready to trade over a hundred assets at {{mailer.info.name}}?",
+    "the-markets-are-going-through-volatile-times-and-with-our-unique": "The markets are going through volatile times, and with our unique features, you can make the best of any opportunity that is presented to you. With our Stop-Loss Feature, you can start trading with risks kept to a minimum.",
+    "open-you-first-trade": "Open your first trade: ",
+    "if-that-wasnt-enough-access-your-unique-portfolio-trading-history": "If that wasn't enough, access your unique portfolio, trading history and build your own Watchlists to always keep track of your investments. We provide a platform that allows you to trade with 0% Commission in the simplest and most efficient way technology can offer. Start today!",
+    "if-you-need-any-help-at-the-time-of-placing-your-first-trade": "If you need any help at the time of placing your first trade, don't hesitate to contact our Customer Support Team, available 24/7."
+  },
+  "chaser-no-transfers-yet-1": {
+    "your-mt-account-is-live": "your MetaTrader account is now live!",
+    "all-you-need-to-do-is-to-transfer-funds": "All you need to do is to transfer funds from your {{mailer.info.name}} Account wallet to your live MetaTrader account to start trading.",
+    "you-can-do-this-by-clicking-the-link-below": "You can do this by clicking the link below.",
+    "you-can-do-this-by-clicking-the-button-below": "You can do this by clicking the button below.",
+    "transfer-your-funds-today": "Transfer Your Funds Today to Start Trading!"
+  },
+  "chaser-no-transfers-yet-2": {
+    "we-want-you-to-enjoy-your-experience": "we want you to enjoy your experience with {{mailer.info.name}}.",
+    "your-next-step-is-to-transfer-funds": "Your next step is to transfer funds from your Account wallet to your live MetaTrader account to start trading.",
+    "have-you-transferred-funds": "Have you Transferred Funds into your {{mailer.info.name}} Live Account?"
+  },
+  "chaser-no-transfers-yet-3": {
+    "time-is-running-out": "Time is running out to transfer funds from your {{mailer.info.name}} wallet into your live MetaTrader account.",
+    "start-utilising-the-benefits": "Start utilising the benefits of {{mailer.info.name}} today by clicking the “Transfer Funds” link below.  ",
+    "transfer-your-funds-today": "Transfer Your Funds Today to Start Trading with {{mailer.info.name}}!"
+  },
+  "chaser-no-transfers-yet-4": {
+    "we-note-that-you-still-have-not": "we note that you still have not yet made a transfer into your live MetaTrader account with {{mailer.info.name}} and we wished to reach out once more to make sure that you were aware of the customer help resources available to you.",
+    "our-customer-support-team-is-available": "Our Customer Support Team is available 24/7 via live chat, email or should you need more personalized assistance and prefer to speak to someone over the phone, please request a call back from our site for a time to suit you!",
+    "you-can-transfer-funds-from-your-account": "You can transfer funds from your Account wallet to your live MetaTrader account to start trading by clicking on the below link.",
+    "we-want-you-to-enjoy-your-experience": "we want you to enjoy your experience with {{mailer.info.name}}.",
+    "have-you-transferred-funds": "Have you Transferred Funds into your {{mailer.info.name}} Live Account?"
+  },
+  "chaser-no-transfers-yet-recurring": {
+    "we-are-reaching-out-as-it-has-been-a-while": "we are reaching out as it has been a while.",
+    "we-note-that-you-still-have-not": "We note that you still have not yet made a transfer into your live MetaTrader account with {{mailer.info.name}} and we wished to reach out once more to make sure that you were aware of the customer help resources available to you.",
+    "our-customer-support-team-is-available": "Our Customer Support Team is available 24/7 via live chat, email or should you need more personalized assistance and prefer to speak to someone over the phone, please request a call back from our site for a time to suit you!",
+    "you-can-transfer-funds-from-your": "You can transfer funds from your Account wallet to your live MetaTrader account to start trading by clicking on the link below.",
+    "have-you-transferred-funds-into": "Have you Transferred Funds into your {{mailer.info.name}} Live Account?"
+  },
+  "chaser-not-user-yet-1": {
+    "email-line-1": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community",
+    "email-line-2": "however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "email-line-3": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "email-line-4": "We would ask and appreciate if you could check your folders please and move this email to your inbox",
+    "email-line-5": "to confirm that you wish to receive email from us. This will additionally be essential for your future trading journey.",
+    "email-line-6": "Simply click the link below to verify your account.",
+    "steps-to-signing-up-with": "Steps to Signing up with {{mailer.info.name}}",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "chaser-not-user-yet-2": {
+    "html-line-1": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community",
+    "html-line-2": "however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "html-line-3": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "html-line-4": "We would ask and appreciate if you could check your folders please and move this email to your inbox",
+    "html-line-5": "to confirm that you wish to receive email from us. This will additionally be essential for your future trading journey.",
+    "html-line-6": "Simply click the link below to verify your account.",
+    "steps-to-signing-up-with": "Steps to Signing up with {{mailer.info.name}}",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "chaser-not-user-yet-3": {
+    "html-line-1": "We need to verify your details before you can make your first deposit and start trading.",
+    "html-line-2": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "html-line-3": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive email from us.",
+    "html-line-4": "This will additionally be essential for your future trading journey.",
+    "html-line-5": "If you need any assistance or have any questions, please reach out to our 24/7 Support Team via online chat or email on {{mailer.info.support}}",
+    "html-line-6": "Please click the link below to verify your Account. Hurry the link will expire soon!",
+    "verification-required-on-your": "Verification Required on Your {{mailer.info.name}} Account!",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "chaser-not-user-yet-4": {
+    "html-line-1": "We need to verify your details before you can make your first deposit and start trading.",
+    "html-line-2": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "html-line-3": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive email from us.",
+    "html-line-4": "This will additionally be essential for your future trading journey.",
+    "html-line-5": "If you need any assistance or have any questions, please reach out to our 24/7 Support Team via online chat or email on {{mailer.info.support}}",
+    "html-line-6": "Please click the link below to verify your Account. Hurry the link will expire soon!",
+    "verification-required-on-your-account": "Verification Required on Your {{mailer.info.name}} Account!",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "chaser-not-user-yet-5": {
+    "html-line-1": "We need to verify your details before you can make your first deposit and start trading.",
+    "html-line-2": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "html-line-3": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive email from us.",
+    "html-line-4": "This will additionally be essential for your future trading journey.",
+    "html-line-5": "If you need any assistance or have any questions, please reach out to our 24/7 Support Team via online chat or email on {{mailer.info.support}}",
+    "html-line-6": "Please click the link below to verify your Account. Hurry the link will expire soon!",
+    "verification-required-on-your-account": "Verification Required on Your {{mailer.info.name}} Account!",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "chaser-not-user-yet-6": {
+    "html-line-1": "This is your last chance to complete your details and open your trading Account with {{mailer.info.name}}.",
+    "html-line-2": "Your application will expire in 24 hours so please click on the 'Verify Now' button below.",
+    "html-line-3": "Once more than 7 days have passed since sign up, the link will no longer work and you would be free to sign up again from our site.",
+    "html-line-4": "Should you require any assistance whatsoever please do not hesitate to get in touch.",
+    "html-line-5": "We have a dedicated support team available via Live Chat 24/7 as well as via email to {{mailer.info.support}}",
+    "verify-now": "Verify Now",
+    "last-chance-to-verify-your-account": "Last Chance to Verify Your {{mailer.info.name}} Account  - Act Now!",
+    "thank-you-for-signin-up-time-to-verify-your-email": "Thank you for Signing up! Time to Verify your Email {{user.firstName}}!",
+    "we-note-that-you-have-signed-up-to-become-a-user-of-the": "We note that you have signed up to become a user of the {{mailer.info.name}} Trading Community however have not yet clicked on the link sent to you via email to verify your email address and open your account with us.",
+    "some-of-our-new-users-have-let-us-know-that-the-verification": "Some of our new users have let us know that the verification email has gone to their spam/junk folder as of recent.",
+    "we-would-ask-and-appreciate-if-you-could-check-your-folders": "We would ask and appreciate if you could check your folders please and move this email to your inbox to confirm that you wish to receive an email from us. This will additionally be essential for your future trading journey.",
+    "simply-click-the-link-below-to-verify-your-account": "Simply click the link below to verify your account.",
+    "verify-your-email": "Verify your Email"
+  },
+  "competition-account-created": {
+    "html-text-1": "You have successfully registered for your MetaTrader Competition account with {{mailer.info.fullName}} and you are now only moments away from experiencing the exciting world of online FX.",
+    "html-text-2": "Once you have installed your preferred application from the links below, you can log in using your username and password.",
+    "html-text-3": "Your username and password give you access to your live account. However, to start trading, you need to make deposit. Make deposit in your live account from your trader's room and start trading.",
+    "html-text-4": "In order to win in the traders competition, you must comply with the competition rules, and only trades made between the competition dates will be considered.",
+    "html-text-5": "Your MetaTrader Competition login details are as follows:",
+    "new-mt-competition-account-created": "New MetaTrader Competition Account created!"
+  },
+  "corporate-account-activation-email": {
+    "welcome": "{{mailer.info.name}} Welcomes {{user.fullName}}!",
+    "email-line-1": "Your Business Account with {{mailer.info.name}} is only a few steps away from being verified!",
+    "email-line-2": "Once your Authorized Person's identity has been verified and your Company documents reviewed and approved, you may deposit and start trading right away.",
+    "your-next-steps": "Your Next Steps:",
+    "step-1": "Step 1: Login",
+    "step-1-description": "Login to your {{mailer.info.name}} Business Account.",
+    "step-2": "Step 2: Authorized Person Identity Verification",
+    "step-2-description": "Firstly, it is important to proceed to verify your identity as the Authorized Person. Please click on the KYC Verification Tab to go through this quick and easy process. The identity of the Authorized Person is required to be verified so they will need to complete this process having their Proof of Identity in hand using a device with a camera.",
+    "step-3": "Step 3: Company Documents",
+    "step-3-description": "We usually require the below documents to verify a business account:",
+    "company-documents-1": "Certificate of Incorporation",
+    "company-documents-2": "Memorandum & Articles of Association",
+    "company-documents-3": "Corporate Resolution to Open Account Addressed to {{mailer.info.name}}",
+    "company-documents-4": "Shareholder register",
+    "company-documents-5": "Certificate of Good Standing",
+    "company-documents-6": "Corporate Address",
+    "company-documents-7": "VerificationDirector and shareholder information: All shareholders with 25% or more equity must be shown.",
+    "company-documents-8": "Director/s Address Verification",
+    "company-documents-9": "Director/s Proof of Identification",
+    "company-documents-10": "UBO/s Address Verification",
+    "company-documents-11": "UBO/s Proof of Identification",
+    "company-documents-12": "Register of Shareholders",
+    "company-documents-13": "Register of Directors",
+    "email-line-3": "We are aware that different set-ups and jurisdictions may have different names for these, or that some may not be applicable in certain cases.",
+    "email-line-4": "Nonetheless, please send in what you have on file by replying to this email and we will review accordingly.",
+    "email-line-5": "In the meantime, should you have any questions, our Support Team are available 24/7 via online chat, email or call back request from our website."
+  },
+  "demo-account-created": {
+    "html-line-2": "You have successfully registered for your MetaTrader demo account. Your MetaTrader login details are as follows:",
+    "html-line-3": "You have successfully registered for your MetaTrader demo account with {{mailer.info.fullName}} and you are now only moments away from experiencing the exciting world of online FX.",
+    "html-line-4": "Once you have installed your preferred application from the links below, you can log in using your username and password.",
+    "html-line-5": "Your username and password give you access to your live account. However, to start trading, you need to make deposit. Make deposit in your live account from your trader's room and start trading.",
+    "html-line-6": "Your MetaTrader login details are as follows:",
+    "subject": "New demo MetaTrader Account created!",
+    "html-line-1": "You have a new demo MetaTrader Account."
+  },
+  "demo-account-engagement-1": {
+    "html-line-1": "Wow! It seems you have really proved yourself on our demo account and you are now ready to join the pros.",
+    "html-line-2": "Once you sign up to a live account with {{mailer.info.name}} you will open up a world of possibilities and be able to trade live on the forex and crypto markets.",
+    "html-line-3": "You will also gain access to our vast educational library packed with useful guides, tutorials and blogs specifically tailored for traders with different levels of experience in the industry.",
+    "html-line-4": "Are you ready to take your trading to the next level?",
+    "html-line-5": "{{mailer.info.name}}'s friendly customer care team is available 24/7 via live chat or email at {{mailer.info.support}}. ",
+    "sign-up": "Sign Up",
+    "subject": "Take Your Trading To The Next Level"
+  },
+  "deposit-approved-with-fee": {
+    "html-line-1": "Your deposit of {{deposit.amount}} has been approved for {{deposit.received}} with a fee of {{deposit.feeamount}}, Your {{mailer.info.shortName}} wallet has been updated with {{deposit.approved}}.",
+    "subject": "Your deposit for {{deposit.amount}} has been approved",
+    "deposit-approved-with-fee": "Deposit Approved With Fees",
+    "your-deposit-has-been": "Your deposit has been",
+    "successful": "successful",
+    "fee-is-deducted": " Please note that a {{deposit.feeamount}} fee has been deducted from your deposit.",
+    "ready-to-join": "Ready to join the action? The {{mailer.info.name}} community is waiting for you.",
+    "click-to-trade": "Click here to trade, learn or share.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "deposit-approved": {
+    "html-line-1": "Your deposit of {{deposit.amount}} has been approved for {{deposit.approved}}, Your {{mailer.info.shortName}} wallet has been updated with {{deposit.approved}}.",
+    "subject": "Your deposit for {{deposit.amount}} has been approved",
+    "deposit-approved": "Deposit Approved",
+    "your-deposit-has-been": "Your deposit has been",
+    "successful": "successful",
+    "ready-to-join": "Ready to join the action? The {{mailer.info.name}} community is waiting for you.",
+    "click-to-trade": "Click here to trade, learn or share.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "deposit-cc-approved": {
+    "html-line-2": "Your {{mailer.info.shortName}} wallet has been updated, enjoy.",
+    "html-line-1": "Your deposit of {{deposit.amount}} has been approved for {{deposit.approved}}."
+  },
+  "deposit-cc-rejected": {
+    "html-line-2": "There was an issue with your deposit, please try again.",
+    "html-line-1": "Your deposit for {{deposit.amount}} has been rejected!"
+  },
+  "deposit-rejected": {
+    "html-line-2": "Reason: {{deposit.comment}}",
+    "html-line-1": "Your deposit for {{deposit.amount}} has been rejected because {{deposit.comment}}.",
+    "subject": "{{deposit.comment}} Your deposit for {{deposit.amount}} has been rejected",
+    "deposit-rejected": "Deposit Rejected",
+    "unfortunately-your-deposit-has-been": "Unfortunately, your deposit has been",
+    "rejected": "rejected",
+    "get-in-touch": "Please get in touch with us at {{mailer.info.support}} or talk to us via chat so we can give you more information.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "deposit-reminder": {
+    "html-line-1": "We can see you have tried to deposit funds on your {{mailer.info.shortName}} account but you did not manage to complete it.",
+    "html-line-2": "Adding funds onto your {{mailer.info.shortName}} account is easy! Start your trading journey with {{mailer.info.shortName}} today and follow the below steps:",
+    "step-1": "1. Login/ Sign Up.",
+    "step-2": "2. Navigate to 'Deposit Funds'.",
+    "step-3": "3. Choose your Method and follow the instructions.",
+    "html-line-3": "You can find the complete FAQ section with step-by-step guides on how to deposit with our different deposit methods by clicking here.",
+    "html-line-4": "Any questions? Our helpful customer care agents are available 24/7 to answer any of your queries. Chat to them from our home page or send them an email.",
+    "subject": "Pending Deposit"
+  },
+  "deposit-reupload-document": {
+    "html-line-1": "Your deposit for {{deposit.amount}} {{deposit.currency}} is still awaiting Proof of Transfer.",
+    "html-line-2": "Please upload a new Proof of Transfer screenshot from the Deposits page.",
+    "subject": "Your deposit for {{deposit.amount}} {{deposit.currency}} is still pending"
+  },
+  "deposit-skrill": {
+    "html-line-1": "Your Skrill deposit for {{deposit.amount}} is being reviewed.",
+    "subject": "Skrill deposit pending review for {{deposit.amount}}"
+  },
+  "deposit-wt-upload": {
+    "html-line-1": "We need your deposit receipt to approve your recent wire transfer of {{deposit.amount}},",
+    "html-line-2": "The receipt should clearly show the time/date, amount and the status of the transfer if possible.",
+    "subject": "Wire Transfer Pending for {{deposit.amount}}"
+  },
+  "deposit-wt-uploaded": {
+    "html-line-1": "Your Proof of Transfer for the deposit request of {{deposit.amount}} {{deposit.currency}} with transaction ID {{deposit._id}} has been successfully uploaded and is currently being reviewed.",
+    "subject": "Your Proof of Transfer has been uploaded"
+  },
+  "deposit-zelle": {
+    "html-line-1": "Your recent Zelle deposit for {{deposit.amount}} is pending approval. ",
+    "html-line-2": "It will be approved after you have sent {{deposit.amount}} to {{deposit.zellename}} at this email address {{deposit.email}}.",
+    "subject": "Zelle deposit pending approval for {{deposit.amount}}"
+  },
+  "document-rejected-both": {
+    "html-line-6": "Your documents have been rejected.",
+    "html-line-7": "Your document for <strong>{{docs[0].type}}</strong> receipt have been rejected. Reason: {{docs[0].comment}}. Please login and re-submit a document for <strong>{{docs[0].type}}</strong>",
+    "html-line-8": "Your document for <strong>{{docs[1].type}}</strong> receipt have been rejected. Reason: {{docs[1].comment}}. Please login and re-submit a document for <strong>{{docs[1].type}}</strong>",
+    "subject": "We found a problem with both of your documents...",
+    "html-line-1": "We find a problem with one of your documents. You can fix it!",
+    "html-line-2": "Document: {{docs[0].type}}",
+    "html-line-3": "Comments: {{docs[0].comments}}",
+    "html-line-4": "Document: {{docs[1].type}}",
+    "html-line-5": "Comments: {{docs[1].comments}}"
+  },
+  "document-rejected": {
+    "html-line-4": "A document has been rejected.",
+    "html-line-5": "Your document for <strong>{{doc.type}}</strong> receipt has been rejected.",
+    "html-line-6": "Reason: {{doc.comment}}. Please login and re-submit a document for <strong>{{doc.type}}</strong>",
+    "subject": "We found a problem with one of your documents...",
+    "html-line-1": "We find a problem with one of your documents. You can fix it!",
+    "html-line-2": "Document: {{doc.type}}",
+    "html-line-3": "Comments: {{doc.comment}}"
+  },
+  "document-review": {
+    "html-line-2": "A document has been uploaded.",
+    "html-line-3": "Please be patient while our team review it.",
+    "subject": "Thank you for uploading your document, we are now reviewing it!",
+    "html-line-1": "Thanks for upload your document. Now we will review and approve it."
+  },
+  "document-updated": {
+    "html-line-5": "A document has been uploaded.",
+    "html-line-6": "Hi Team,",
+    "html-line-2": "The user {{user.fullName}} ({{user._id}}) has updated his documents:",
+    "html-line-3": "Index: {{doc._id}}",
+    "html-line-4": "Document: {{doc.type}}",
+    "subject": "User {{user.fullName}} has updated his documents",
+    "html-line-1": "Hi,"
+  },
+  "email-exist-unable-to-create-account": {
+    "html-line-1": "We note that you have attempted to create an additional Account with {{mailer.info.shortName}} using an email address that is already in use, however we are only able to allow each user to have one Account as per our Terms & Conditions.",
+    "html-line-2": "Should we identify any additional Accounts belonging to a customer throughout their journey on our Platform, we require to close the duplicate Account(s) immediately. ",
+    "html-line-3": "If you have forgotten your password, please navigate to the below link to reset and gain access to your Account. Please use the email address you have received this email on.",
+    "html-line-4": "We are available 24/7 via online chat, email and call back request made from our website.",
+    "subject": "We are unable to create your Account"
+  },
+  "forex-squad-signup": {
+    "html-line-4": "Forex Squad Signup",
+    "html-line-2": "It's time to create a secure password.",
+    "html-line-3": "Please use the link below to do so",
+    "html-line-5": "Create your Password on Forex Squad",
+    "subject": "Welcome to ForexSquad {{user.firstName}}",
+    "html-line-1": "FOREXSQUAD"
+  },
+  "global-notification-email": {
+    "html-line-1": "Please note that you have been sent a notification from {{mailer.info.name}}",
+    "subject": "{{mailer.info.name}} Notification: {{subject}}",
+    "html-line-2": "Please login into your account if you wish to see all notifications"
+  },
+  "global-notification": {
+    "subject": "{{mailer.info.name}} Notification: {{subject}}",
+    "notification": "Notification"
+  },
+  "ib-registration": {
+    "html-line-1": "A Partner account was successfully created for you:",
+    "partner-referral-id": "Partner Referral ID {{payload.referralId}}",
+    "email-address": "Email Address {{payload.emailAddress}}",
+    "password": "Password {{payload.password}}",
+    "partners-admin-url": "Partners Admin URL {{payload.portalURL}}",
+    "partner-portal": "Partners Portal",
+    "subject": "Welcome to the {{mailer.info.name}} Partners System"
+  },
+  "instacoins-deposit-details": {
+    "html-line-5": "We need you to click on the link below to proceed deposit of {{deposit.amount}}.",
+    "html-line-1": "Please click on the below link to complete your deposit.",
+    "html-line-2": "You will be directed to the provider and will need to either create an account or login into your existing account. ",
+    "html-line-3": "The funds for this deposit should be sent to the following one time Bitcoin address which would be populated automatically by following the below deposit link: {{deposit.address}}",
+    "html-line-4": "Please ensure that you 'authorize' the transaction as a final step from your 'My Account' section.",
+    "subject": "Deposit Request for {{deposit.amount}}"
+  },
+  "instacoins-kyc": {
+    "html-line-2": "You can now activate your Instacoins account and deposit with Bitcoin via Credit/Debit card on Instacoins.",
+    "html-line-1": "Your payment documents have been approved! Now you can activate your instacoins account.",
+    "subject": "Your payment documents have been approved!"
+  },
+  "internal-ib-created": {
+    "html-line-1": "You are officially an affiliate of {{mailer.info.fullName}}! We are excited to have you join our prestigious program and represent a brokerage where we put our focus solely on the client.",
+    "html-line-2": "Below is your affiliate link:",
+    "html-line-3": "Share this link with your friends, family, and trading community to earn commissions! You will receive your commission payments on a monthly basis.",
+    "html-line-4": "Our Program offers lucrative pay for referring clients. We are confident that the clients you refer to us will be satisfied with their experience at {{mailer.info.fullName}}.",
+    "html-line-5": "So, why choose {{mailer.info.fullName}}? Here are just a few KEY features that standout:",
+    "html-line-6": "STP Broker - We operate using a Straight Through Processing model. No B-Booking. Ever. Therefore, no conflict of interest. With a long-term mindset, your success is our success.",
+    "html-line-7": "Fast Payment Processing - We know that sending and receiving your funds as fast as possible makes the entire experience stress-free. Our team continuously works to provide the fastest processing in the industry.",
+    "html-line-8": "Once again, thank you for choosing to join our Affiliate Program. We hope to continue to offer a satisfying experience for you and your future referrals that you refer to {{mailer.info.fullName}}.",
+    "subject": "Earn The Most As A {{mailer.info.fullName}} Affiliate!",
+    "affiliate-account-created": "Affiliate Account Created",
+    "congrats-you-are-now-a": "Congratulations! You are now a",
+    "brand-affiliate": "{{mailer.info.name}} affiliate",
+    "spread-the-revolution": "Spread the revolution and make sure you introduce other traders to the future of trading by sharing your affiliate link, that can be found here.",
+    "access-your-brand-account": "Access Your {{mailer.info.name}} Account"
+  },
+  "internal-transfer-approved": {
+    "html-line-2": "To review your internal transfers please login.",
+    "html-line-1": "Your transfer of {{transfer.amount}} from {{transfer.type}} has been approved!"
+  },
+  "internal-transfer-rejected": {
+    "html-line-2": "To review your internal transfers please login.",
+    "html-line-1": "Your transfer of {{transfer.amount}} from {{transfer.type}} has been rejected!"
+  },
+  "kyc-expire-in-15": {
+    "subject": "KYC Update - Expires in 15 days",
+    "html-line-1": "We trust this email finds you well. Please be assured that your account security is of paramount importance to us and so we write to ask you to kindly assist us with the following request.",
+    "html-line-2": "After a review of your account, it came to our attention that your proof of identification document will expire within 15 days.",
+    "html-line-3": "Please note once the expiry date passes you are required to complete the verification process and provide us with a valid, in-date identity document.",
+    "html-line-4": "If you have any further questions please visit our FAQ section or if you would like to renew your documents you contact us directly via live chat and email.",
+    "html-line-5": "Thank you for your cooperation,"
+  },
+  "kyc-expire-in-30": {
+    "subject": "KYC Update - Expires in 30 days",
+    "html-line-1": "We trust this email finds you well. Please be assured that your account security is of paramount importance to us and so we write to ask you to kindly assist us with the following request.",
+    "html-line-2": "After a review of your account, it came to our attention that your proof of identification document will expire within 30 days.",
+    "html-line-3": "Please note once the expiry date passes you are required to complete the verification process and provide us with a valid, in-date identity document.",
+    "html-line-4": "If you have any further questions please visit our FAQ section or if you would like to renew your documents you contact us directly via live chat and email.",
+    "html-line-5": "Thank you for your cooperation,"
+  },
+  "kyc-expired": {
+    "subject": "KYC Expired",
+    "html-line-1": "We trust this email finds you well. Please be assured that your account security is of paramount importance to us and so we write to ask you to kindly assist us with the following request.",
+    "html-line-2": "After a review of your account, it came to our attention that your proof of identification document is expired.",
+    "html-line-3": "Please note once the expiry date passes you are required to complete the verification process and provide us with a valid, in-date identity document.",
+    "html-line-4": "If you have any further questions please visit our FAQ section or if you would like to renew your documents you contact us directly via live chat and email.",
+    "html-line-5": "Thank you for your cooperation,"
+  },
+  "notification-created": {
+    "html-line-3": "You have a new notification on {{mailer.info.website}}.",
+    "html-line-1": "You have a new notification!",
+    "html-line-2": "Sign in to check your notifications",
+    "login-to-your-account": "Login to Your Account",
+    "subject": "New notification on {{mailer.info.website}}!"
+  },
+  "pamm-detach": {
+    "html-line-3": "Please login to review your accounts.",
+    "html-line-1": "Your account {{account}} is now detached from {{systemName}}",
+    "subject": "Your account {{account}} is now detached from {{systemName}}",
+    "html-line-2": "To review your accounts login in here: {{mailer.info.website}}/login"
+  },
+  "pamm-fund-account-created": {
+    "html-line-11": "You have successfully registered for your MetaTrader PAMM Fund account. Your MetaTrader login details are as follows:",
+    "html-line-1": "You have successfully created your MetaTrader PAMM Fund Account with {{mailer.info.shortName}} and you are now well on your way to starting your first Investment Fund.",
+    "html-line-2": "Your username and trader password, as below, will give you access to your live account in your MetaTrader application of choice.",
+    "html-line-3": "Your Next Steps:",
+    "html-line-4": "Step 1: Access the PAMM Widget by clicking on the cog to 'Manage' your Investment Fund from your {{mailer.info.shortName}} Account.",
+    "html-line-5": "Step 2: You will need to set an 'Offer' for your Investors. The offer defines your fee for investing on your investors' behalf. Each offer that is set under your Fund can be selected by your Investors should you make this offer “Public”. ",
+    "html-line-6": "Step 3: You will have to select the trading interval (how often costs are charged to Investors), minimum deposit, minimum withdrawal, minimum initial investment and any fees. Once you have your first Investor, you will NOT be able to change an offer but you may create additional offers.",
+    "html-line-7": "Step 4: Once you are up and running with your first Investors, you may wish to share the “Investor Password” below with them so they will also be able to view your trading history and open positions on MetaTrader.  Investors will also be able to view this from the PAMM widget upon rollover. ",
+    "html-line-8": "You may wish to navigate to our FAQ Section for more detailed information regarding PAMM Fund Accounts.",
+    "html-line-9": "Your MetaTrader login details are as follows:",
+    "html-line-10": "Account No: {{account.mtAccountId}}",
+    "subject": "New MetaTrader PAMM Fund Account Created!"
+  },
+  "pamm-investor-account-created": {
+    "html-line-11": "You have successfully registered for your MetaTrader PAMM Investor account. Your MetaTrader login details are as follows:",
+    "html-line-1": "You have successfully created your MetaTrader PAMM Investor Account with {{mailer.info.shortName}}!",
+    "html-line-2": "You are now ready to seek out Investment Funds that you would like to join and the opportunities that await you by investing with Money Managers of your choice.",
+    "html-line-3": "Your Next Steps:",
+    "html-line-4": "Step 1: Fund your {{mailer.info.shortName}} Account and make an Internal Transfer to your PAMM Investor Account.",
+    "html-line-5": "Step 2: “Manage” your PAMM Investor Account by using the cog icon to open the PAMM Widget to review a list of PAMM Fund Accounts that are available to join.",
+    "html-line-6": "Step 3: Click on “Join” to review the Fund Account's details including the offer(s) being made by the Money Manager of that Fund. The offer specifies the charge(s) the Manager will levy for managing your funds so please read these carefully.",
+    "html-line-7": "Step 4: Use the PAMM Investor Account credentials as below and insert the amount of your initial investment (inline with the minimum initial investment set by the Money Manager) for your chosen offer within that Fund. Click on “Invest”.",
+    "html-line-8": "Step 5: Your Money Manager will accept your investment within 24 hours. This investment will show in the PAMM Widget under the Fund History Requests until accepted.",
+    "html-line-9": "You may wish to navigate to our FAQ Section for more detailed information regarding PAMM Investor Accounts.",
+    "html-line-10": "Your MetaTrader login details are as follows:",
+    "subject": "New MetaTrader PAMM Investor Account Created!"
+  },
+  "pamm-joined": {
+    "html-line-3": "Please login to review your accounts.",
+    "html-line-4": "Your account {{account}} is now copying {{systemName}}",
+    "subject": "Your account {{account}} is now copying {{systemName}}",
+    "html-line-1": "Your account {{account}} is now copied to {{systemName}}",
+    "html-line-2": "to review your accounts login in here: {{mailer.info.website}}/login"
+  },
+  "pamm-master-account-created": {
+    "html-line-10": "You have successfully registered for your MetaTrader PAMM Manager account. Your MetaTrader login details are as follows:",
+    "html-line-1": "You have successfully created your MetaTrader PAMM Manager Account with {{mailer.info.shortName}}!",
+    "html-line-2": "You are now on your way to creating a world of earning opportunities for yourself and your Investors.",
+    "html-line-3": "Your Next Steps:",
+    "html-line-4": "Step 1: Your PAMM Manager Account is a non-tradable account and is solely used to manage your PAMM Fund Accounts. You will need to open your first PAMM Fund Account to allow Investors to start investing with you. Your PAMM Fund Accounts are where you will be trading on behalf of those investing in your Fund.",
+    "html-line-5": "Step 2: Choose the Name and Description for your Investment Fund. Keep in mind that once you have selected the name of your Fund, this cannot be changed however you may adjust the Description as required. The name of the Fund is unique, and this is the primary way your investors will find you.",
+    "html-line-6": "Step 3: “Manage” your PAMM Fund Accounts via the cog icon to open the PAMM Widget and to set up the offer that you would like to make for your Investors. ",
+    "html-line-7": "Step 4: Investors will “Join” your PAMM Fund Account by agreeing to an offer and making an initial investment, which can be accepted by you via the PAMM Widget or will be automatically accepted on your behalf after 24 hours.",
+    "html-line-8": "You may wish to navigate to our FAQ Section for more detailed information regarding PAMM Manager Accounts.",
+    "html-line-9": "Your MetaTrader login details are as follows:",
+    "subject": "New MetaTrader PAMM Manager Account Created!"
+  },
+  "password-recovery": {
+    "html-line-2": "You have requested to reset your password. Click the link below.",
+    "subject": "Reset your Password",
+    "html-line-1": "We've received a request to reset your password. If you didn't make the request, just ignore this email. Otherwise, you can reset your password using this link: {{mailer.info.website}}/password-recovery/{{recovery.token}}",
+    "reset-your-password": "Reset your Password",
+    "recently-request-for-reset": "You recently requested a password reset for your {{mailer.info.name}} account",
+    "initiate-reset": "You may use the link below to initiate the reset:",
+    "if-didnt-request-intro": "If you didn't request this action your account may be compromised. You should do the following:",
+    "reset-step-1": "1. Sign in to {{mailer.info.website}} immediately and change your password",
+    "reset-step-2": "2. Create a support ticket letting our support team know about the incident:"
+  },
+  "suspended-country": {
+    "html-line-3": "Your account has been suspended.",
+    "html-line-1": "Our Compliance Team has suspended your account due to you having signed up from a restricted country. We wish to make you aware of the terms and conditions of our website, surrounding the 'Restricted Territory' clause. ",
+    "html-line-4": "If you have any questions please visit our FAQ section or contact us directly via live chat and email,and we will be happy to help. Thank you for your cooperation.",
+    "subject": "Your account has been suspended.",
+    "html-line-2": "We are available via live chat, email or alternatively, you can go to our FAQ's.",
+    "suspended-country": "Suspended Country",
+    "thanks-for-registering": "Thanks for registering with us!",
+    "we-are-sorry": "We are sorry to inform you that the country you are based in is not in the",
+    "list-of-countries": "list of countries",
+    "we-operate-in": "we operate in",
+    "get-in-touch": "Please get in touch with us at",
+    "talk-to-us": "or talk to us via chat so we can give you more information.",
+    "list-of-countries-title": "List of Countries"
+  },
+  "suspended-duplicate-account": {
+    "html-line-5": "Your account has been suspended.",
+    "html-line-1": "We note that you have attempted to create an additional Account with {{mailer.info.name}}, however we are only able to allow each user to have one Account as per our Terms & Conditions.",
+    "html-line-2": "We have proceeded to close the Account that you have created and offer you our assistance should you be having any difficulty accessing your existing Account. You will not be able to access this duplicate Account any further. ",
+    "html-line-3": "If you have forgotten your password, please navigate to the below link to reset and gain access to your Account. Please use the email address you have received this email on.",
+    "html-line-4": "We are available 24/7 via online chat, email and call back request made from our website.",
+    "subject": "Multiple Account Notification with {{mailer.info.name}}"
+  },
+  "two-factor-disable-failed": {
+    "disable-2fa-failed": "Disable 2FA Failed",
+    "please-contact-support": "Please Contact Support"
+  },
+  "two-factor-disable-request": {
+    "html-line-1": "We have received a request to disable your 2FA on your {{mailer.info.name}} account. To continue with this request simply click the button below and follow a few simple steps.",
+    "html-line-2": "If you did not request to disable your 2FA, ignore this email and we advise that you reset your password.",
+    "html-line-3": "Disable Your Two-Factor <br/>Authentication ",
+    "subject": "Disable your 2FA"
+  },
+  "two-factor-disable-success": {
+    "html-line-1": "You have successfully passed the verification process and are able to log in to your account.",
+    "html-line-2": "Thank you for your cooperation, and if you need anything our team is available 24/7 to help.",
+    "subject": "Success Disable 2FA"
+  },
+  "two-factor-disable-user-account-locked": {
+    "html-line-1": "To ensure your full security your account is now locked for 48-hours. If you not wish to wait this long please contact support and they will be on hand to help. ",
+    "html-line-2": "If you did not attempt to enter any of your details, ignore this email and contact support. We also advise that you reset your password",
+    "subject": "Your Account is Locked for 48 hours"
+  },
+  "two-factor-disable-user-account-suspended": {
+    "html-line-1": "Max attempts were exeeded for disable 2FA, To ensure your full security your account is now locked. Please contact support.",
+    "html-line-2": "If you did not atttempt to disable 2FA, Please contact support. We also advise that you reset your password after unlocking your account.",
+    "subject": "Your Account is Locked"
+  },
+  "two-factor-release-lock": {
+    "html-line-3": "ACCOUNT UNLOCKED",
+    "html-line-4": "Click to login",
+    "html-line-5": "Your Account is <br/>Locked for 48 hours",
+    "html-line-1": "Your account was locked for 48-hours to ensure full security while disabling the multi-factor authentication. Now you are able to log into your account.",
+    "html-line-2": "If you did not attempt to enter any of your details, ignore this email and contact support. We also advise that you reset your password.",
+    "subject": "Your Account is unblocked"
+  },
+  "unsuspended-country": {
+    "subject": "Your account has been un-suspended.",
+    "html-line-1": "We are happy to inform you that your account has been un-suspended.",
+    "html-line-2": "If you have any questions, please do not hesitate to contact us, we are happy to help.",
+    "html-line-3": "We are available via live chat, email or alternatively, you can go to our FAQ's.",
+    "unsuspended-country": "Unsuspended Country",
+    "thanks-for-registering": "Thanks for registering with us!",
+    "we-added-your-country": "We are so pleased to tell you that the country you are based in has now been added to the list of countries we operate from.",
+    "start-trading-sharing": "You are now ready to start trading, sharing, and learning with the freshest broker around.",
+    "start-trading": "Start Trading"
+  },
+  "user-approved": {
+    "html-line-2": "You can now use all of our services, enjoy.",
+    "html-line-3": "Your user has been approved!",
+    "html-line-4": "You can now use all of our services, enjoy.",
+    "subject": "Your user has been approved!!!",
+    "html-line-1": "Your user has been approved! Now you can use all of ours services!"
+  },
+  "user-created": {
+    "html-line-7": "Now, you should send your document to approval.",
+    "html-line-8": "Your user account on <b>{{mailer.info.name}}</b> is now active!",
+    "here-are-some-quick-steps": "Here are some quick steps to get you trading right away:",
+    "html-line-9": "<b> 1. Make a deposit</b> - Add funds to chosen Account Wallet via Bitcoin",
+    "html-line-10": "<b>2. Create MetaTrader Account</b> - via the My Account Page on our website",
+    "html-line-11": "<b>3. Set Up MetaTrader</b> - Download, install & login",
+    "html-line-12": "<b>4. Internal transfer</b> - Account Wallet to MetaTrader Account",
+    "if-you-would-like-more-deposit-methods": "If you would like more deposit methods:",
+    "html-line-13": "<b>Complete your KYC </b> - Verify your identity by completing the KYC (User Verification) process.",
+    "need-help": "Need Help?",
+    "navigate-to-faq-section": "Navigate to our FAQ section on our website for easy step-by-step guides.",
+    "all-the-best": "All the best,",
+    "subject": "Your user account on {{mailer.info.name}} has been activated!",
+    "html-line-1": "Your user account on {{mailer.info.name}} is now active!",
+    "html-line-2": "1. Make a deposit - Add funds to chosen Account Wallet via Bitcoin",
+    "html-line-3": "2. Create MetaTrader Account - via the My Account Page on our website",
+    "html-line-4": "3. Set Up MetaTrader - Download, install & login",
+    "html-line-5": "4. Internal transfer - Account Wallet to MetaTrader Account",
+    "html-line-6": "Complete your KYC - Verify your identity by completing the KYC (User Verification) process.",
+    "ready-to-start": "You are ready to start at {{mailer.info.name}}!",
+    "welcome-to-future-of-trading": "Welcome to the future of trading. Thank you for registering with us!",
+    "ready-to-start-trading": "You are now ready to start trading, sharing, and learning with the freshest broker around.",
+    "start-trading": "Start Trading"
+  },
+  "user-request": {
+    "you-have-signed-up-to": "You have signed up to {{mailer.info.website}}, please complete the process by clicking this link",
+    "you-are-almost-done": "You're almost done, to access your dashboard please complete your profile by clicking on the link and filling in your details.",
+    "html-line-1": "Complete Signup:",
+    "welcome-to-brand": "You are on your way to the future of trading. You have now requested {{mailer.info.name}} to create an account for you.",
+    "complete-sign-up": "Complete Sign up",
+    "thank-you-for-signup": "Thank you for signing up to {{mailer.info.name}}",
+    "complete-signup": "Complete Signup: {{mailer.info.website}}/signup/verify?code={{code}}"
+  },
+  "withdraw-approved": {
+    "html-line-2": "Please login to review your {{mailer.info.name}} wallet balance.",
+    "html-line-1": "Your withdrawal for {{withdraw.amount}} has been approved.",
+    "withdrawal-approved": "Withdrawal Approved",
+    "your-withdrawal-has-been": "Your withdrawal has been",
+    "successful": "successful",
+    "community-share": "Why not share your top tips with the {{mailer.info.name}} community? Click here to start posting.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "withdraw-created-user": {
+    "html-line-2": "If this is incorrect, please contact us immediately. {{mailer.info.support}}",
+    "html-line-1": "You have requested a withdrawal for {{withdraw.amount}}. If this is incorrect, please contact us immediately. {{mailer.info.support}}",
+    "subject": "You have requested a withdrawal for {{withdraw.amount}}.",
+    "withdraw-started": "Withdraw Started",
+    "your-withdrawal-is-now": "Your withdrawal is now",
+    "pending-approval": "pending approval",
+    "will-send-an-email": "We will send an email once the status of this withdrawal has been updated.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "withdraw-created": {
+    "subject": "There is a new Withdraw that needs your attention",
+    "html-line-3": "Hi team!",
+    "html-line-4": "{{user.fullName}} has requested a withdrawal",
+    "subject-2": "From: {{user.fullName}}",
+    "html-line-1": "There is a new Withdraw to approve.",
+    "html-line-2": "From the user {{user.fullName}}"
+  },
+  "withdraw-pending-internal-review": {
+    "html-line-1": "Your withdrawal request has been well received.",
+    "html-line-2": "Our Payments Team swiftly reviews all incoming requests and aims to process them within 24 hours.",
+    "html-line-3": "Should additional information be required, we will be in touch.",
+    "html-line-4": "Alternatively, you will be notified as soon as our processing is successfully completed.",
+    "subject": "Regarding Your {{mailer.info.name}} Withdrawal"
+  },
+  "withdraw-pending-transfer": {
+    "html-line-1": "Your withdrawal demand is in progress.",
+    "html-line-2": "Our team is working diligently to review the request and process it within the next 24 hours. We will be in touch once it has been successfully completed.",
+    "subject": "Regarding Your {{mailer.info.name}} Withdrawal"
+  },
+  "withdraw-rejected": {
+    "html-line-1": "Your withdraw for {{withdraw.amount}} has been rejected because {{withdraw.comment}}.",
+    "subject": "Your withdrawal for {{withdraw.amount}} has been rejected",
+    "withdrawal-rejected": "Withdrawal Rejected",
+    "unfortunately-your-withdrawal-has-been": "Unfortunately, your withdrawal has been",
+    "rejected": "rejected",
+    "get-in-touch": "Please get in touch with us at {{mailer.info.support}} or talk to us via chat so we can give you more information.",
+    "amount": "Amount",
+    "see-your-transactions": "See Your Transactions"
+  },
+  "withdraw-selfie-requested": {
+    "html-line-1": "Requesting a selfie to process your withdrawal request is a security protocol to safeguard our clients' funds.",
+    "html-line-2": "Please find the below directions to provide our Payments Team with the required selfie in order to process your request.",
+    "html-line-3": "To take a selfie, you need:",
+    "html-line-4": "A piece of paper and a pen.",
+    "html-line-5": "A valid identity document.",
+    "html-line-6": "A device with an enabled camera.",
+    "html-line-7": "Your selfie must include:",
+    "html-line-8": "A paper with the date and amount of your withdrawal along with your signature.",
+    "html-line-9": "Your valid identity document.",
+    "html-line-10": "Ensure you are holding your ID and the piece of paper.",
+    "html-line-11": "Make sure your hand or fingers are not covering the information on the ID or the paper.",
+    "html-line-12": "Once your selfie is received, we will get back to you within 24 hours should anything further be required.",
+    "html-line-13": "Alternatively, you will be notified once your withdrawal has been successfully processed.",
+    "subject": "Regarding Your {{mailer.info.name}} Withdrawal - Action Required"
+  },
+  "affiliate-invite": {
+    "affiliate-invite": "Affiliate Invite",
+    "introduce-others": "You can now introduce other traders like you to the future of trading and make some extra money in the process!",
+    "become-affiliate": "You can become an affiliate with {{mailer.info.name}} by clicking on this link.",
+    "need-more-info": "Need more info? Get in touch with us at",
+    "talk-to-us": "or talk to us via chat so we can give you more information.",
+    "start-sharing": "Start sharing the future with the freshest broker around!",
+    "invite-friends": "Invite your Friends"
+  },
+  "chaser-not-enabled-2fa-yet-1": {
+    "time-to-start-trading": "Thank you for Signing up! Time to Start\u202fTrading\u202f{{user.firstName}}!",
+    "thank-you-for-joining": "Thank you for joining\u202f{{mailer.info.name}}, the next step is to complete your profile and add an extra layer of security to your account",
+    "secure-trading-platform": "We are proud to present our users with a secure and efficient trading platform,\u202fthat's why we encourage you to complete setting up your account so you can start enjoying from our trading experience. It takes just a couple of minutes",
+    "enable-your-2fa": "Enable your 2FA"
+  },
+  "chaser-not-enabled-2fa-yet-2": {
+    "complete-your-profile": "{{user.firstName}}, Complete your Profile to Start Trading",
+    "welcome-to-brand": "We would like to welcome you to the {{mailer.info.name}} experience.",
+    "verify-your-account-enable-2fa": "{{mailer.info.name}}\u202fstands for security and reliability. In very few steps you can verify your account and enable the 2FA feature to start trading safely.",
+    "security-top-priority": "The security of your account is our top priority, that's why we want you to enable\u202fTwo-Factor Authentication (2FA)\u202fand add security to your account",
+    "enable-your-2fa": "Enable your 2FA",
+    "guarantee-full-security": "This way you can guarantee full security during your trading journey with us.\u202fEnable 2FA today and join millions of traders in the markets"
+  },
+  "chaser-not-enabled-2fa-yet-3": {
+    "unlock-brand-security-feature": "Unlock {{mailer.info.name}} Ultimate Security Feature",
+    "setup-2fa-and-verify": "It has come to our attention that you haven't enabled Two-Factor Authentication (2-FA) on your account yet.\u202fIt is important that you complete this step in order to verify your account and start trading",
+    "enable-your-2fa": "Enable your 2FA",
+    "enjoy-full-experience": "Not only will you unlock our trading features but also, add full security to your account. Keep your funds and your trading protected at all times to fully enjoy the {{mailer.info.name}} experience."
+  },
+  "chaser-not-enabled-2fa-yet-4": {
+    "unlock-brand-security-feature": "Unlock {{mailer.info.name}} Ultimate Security Feature",
+    "2fa-feature-description": "Our Two-Factor Authentication (2-FA) Feature is designed to provide the maximum level of security to your account.",
+    "unlock-features": "It only takes a couple of minutes and unlocks the full set of features that you can enjoy at {{mailer.info.name}}, we keep everything simple and reliable.",
+    "enable-your-2fa": "Enable your 2FA"
+  },
+  "trade-order-deleted-expired": {
+    "order-was-expired": "A Trade Order Was Expired",
+    "order-was-cancelled-automatically": "A Trade Order was cancelled automatically due to the expiration time set by the user when they placed it, see details below",
+    "order-id": "Order ID",
+    "instrument": "Instrument",
+    "see-your-open-orders": "See Your Open Orders",
+    "if-it-wasnt-you": "If it wasn't you, please",
+    "contact-our-support-team": "contact our support team"
+  },
+  "trade-position-created-filled": {
+    "order-was-filled": "New Trade Order Was Filled",
+    "order-was-processed": "A new trade order was processed in your {{mailer.info.name}} account, see details below",
+    "order-id": "Order ID",
+    "instrument": "Instrument",
+    "open-price": "Open Price",
+    "position-id": "Position ID",
+    "see-your-open-trades": "See Your Open Trades",
+    "if-it-wasnt-you": "If it wasn't you, please",
+    "contact-our-support-team": "contact our support team"
+  },
+  "trade-position-deleted-sl": {
+    "order-was-closed": "A Stop Loss Order was closed",
+    "position-is-closed": "A position is fully closed due to hitting SL price, see details below",
+    "position-id": "Position ID",
+    "instrument": "Instrument",
+    "sl-price": "SL Price",
+    "profit-loss-value": "Profit/Loss Value",
+    "see-your-trades-history": "See Your Trades History",
+    "if-it-wasnt-you": "If it wasn't you, please",
+    "contact-our-support-team": "contact our support team"
+  },
+  "trade-position-deleted-stopout": {
+    "order-closed": "An Order was closed due to Margin Call",
+    "position-closed": "A position is fully closed due to hitting Margin Call, see details below",
+    "position-id": "Position ID",
+    "instrument": "Instrument",
+    "see-your-trades-history": "See Your Trades History",
+    "if-it-wasnt-you": "If it wasn't you, please",
+    "contact-our-support-team": "contact our support team"
+  },
+  "trade-position-deleted-tp": {
+    "take-profit-closed": "A Take Profit Order was closed",
+    "position-fully-closed": "A position is fully closed due to hitting TP price, see details below",
+    "position-id": "Position ID",
+    "instrument": "Instrument",
+    "tp-price": "TP Price",
+    "profit-loss-value": "Profit/Loss Value",
+    "see-your-trades-history": "See Your Trades History",
+    "if-it-wasnt-you": "If it wasn't you, please",
+    "contact-our-support-team": "contact our support team"
+  }
+}
